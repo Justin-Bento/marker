@@ -19,10 +19,10 @@ export default function Appbar() {
         <section>
           <nav className="flex items-center justify-between mx-auto max-w-7xl sm:px-6 lg:px-8 " aria-label="Global">
             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-              <a href="#" className="-m-1.5 p-1.5">
+              <Link href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <div className="w-10 h-10 bg-gray-200"></div>
-              </a>
+              </Link>
             </div>
             <div className="flex lg:hidden">
               <button
@@ -46,12 +46,12 @@ export default function Appbar() {
               ))}
             </div>
             <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
-              <a
-                href="#"
+              <Link
+                href="/login"
                 className="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20"
               >
                 Log in
-              </a>
+              </Link>
             </div>
           </nav>
           <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
