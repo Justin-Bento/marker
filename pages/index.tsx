@@ -1,24 +1,44 @@
-import Appbar from "../components/Appbar";
-import Footer from "../components/Footer";
+import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      <Appbar />
+      <Head>
+        <title>Marker</title>
+      </Head>
       <main className="space-y-16 mt-16">
         <section className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <h1 className="">Headline 1</h1>
-          <p className=""></p>
+          <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl mx-auto max-w-3xl">
+            Accounting made simple for  small businesses.
+          </h1>
+          <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center mx-auto max-w-prose">
+            Discover and build your collection of online resources you use for
+            your industry. Find new ones by searching what other people use to
+            help them get ahead inside their industry or to help make their
+            day-to-day lives easiers.
+          </p>
+          <div className="mt-8 flex gap-x-4 sm:justify-center">
+            <Link
+              href="/login"
+              className="inline-block rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
+            >
+              Get started
+            </Link>
+            <Link
+              href="/discover"
+              className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
+            >
+              Live demo
+            </Link>
+          </div>
         </section>
         <section className="mx-auto max-w-7xl sm:px-6 lg:px-8">
           <h2 className="">Headline 2</h2>
           <p className=""></p>
         </section>
         <section className="bg-blue-500">
-          <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-            <h3 className="">Headline 3</h3>
-            <p className=""></p>
-          </div>
+          <Example />
         </section>
         <section className="mx-auto max-w-7xl sm:px-6 lg:px-8">
           <h4 className="">Headline 4</h4>
@@ -29,13 +49,31 @@ export default function Home() {
           <p className=""></p>
         </section>
         <section className="bg-gray-500">
-          <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-            <h6 className="">Headline 6</h6>
-            <p className=""></p>
-          </div>
+          <Example />
         </section>
       </main>
-      <Footer />
     </>
+  );
+}
+export function Example() {
+  return (
+    <div className="mx-auto max-w-7xl py-20 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between">
+      <h2 className="text-3xl font-bold tracking-tight text-gray-900 md:text-4xl">
+        <span className="block">Ready to dive in?</span>
+        <span className="block text-indigo-100">
+          Start your free trial today.
+        </span>
+      </h2>
+      <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+        <div className="inline-flex rounded-md shadow">
+          <a
+            href="#"
+            className="inline-flex items-center justify-center rounded-md border border-transparent bg-blue-900 px-5 py-3 text-base font-medium text-white hover:bg-blue-800"
+          >
+            Get started
+          </a>
+        </div>
+      </div>
+    </div>
   );
 }
