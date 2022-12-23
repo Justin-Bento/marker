@@ -1,8 +1,9 @@
 import { Dialog } from "@headlessui/react";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
-
+import Marker from "../public/brand/Marker_RGB_Black.svg"
 const navigation = [
   { name: "Product", href: "#" },
   { name: "Features", href: "#" },
@@ -14,17 +15,13 @@ export default function Appbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <>
-      <div className="p-4 lg:px-8 shadow">
-        <div>
+      <header className="p-4 lg:px-8 shadow">
+        <section>
           <nav className="flex items-center justify-between mx-auto max-w-7xl sm:px-6 lg:px-8 " aria-label="Global">
             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img
-                  className="h-8"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                  alt=""
-                />
+                <div className="w-10 h-10 bg-gray-200"></div>
               </a>
             </div>
             <div className="flex lg:hidden">
@@ -58,19 +55,12 @@ export default function Appbar() {
             </div>
           </nav>
           <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
-            <Dialog.Panel
-              focus="true"
-              className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden"
-            >
+            <Dialog.Panel focus="true" className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
               <div className="flex h-9 items-center justify-between">
                 <div className="flex">
                   <a href="#" className="-m-1.5 p-1.5">
                     <span className="sr-only">Your Company</span>
-                    <img
-                      className="h-8"
-                      src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                      alt=""
-                    />
+                    <div className="w-10 h-10 bg-gray-200"></div>
                   </a>
                 </div>
                 <div className="flex">
@@ -98,19 +88,16 @@ export default function Appbar() {
                     ))}
                   </div>
                   <div className="py-6">
-                    <a
-                      href="#"
-                      className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10"
-                    >
+                    <Link href="/login" className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">
                       Log in
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </Dialog.Panel>
           </Dialog>
-        </div>
-      </div>
+        </section>
+      </header>
     </>
   );
 }
