@@ -1,5 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
+// End of Next.js 
+import Appbar from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -7,6 +10,7 @@ export default function Home() {
       <Head>
         <title>Marker</title>
       </Head>
+      <Appbar />
       <main className="space-y-16 mt-16">
         <section className="mx-auto max-w-7xl sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl mx-auto max-w-3xl">
@@ -26,7 +30,7 @@ export default function Home() {
               Get started
             </Link>
             <Link
-              href="/discover"
+              href="/app"
               className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
             >
               Live demo
@@ -52,6 +56,7 @@ export default function Home() {
           <Example />
         </section>
       </main>
+      <Footer />
     </>
   );
 }
