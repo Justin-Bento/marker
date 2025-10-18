@@ -26,7 +26,7 @@ function App() {
             onClick={() => setCount((count) => count + 1)}
             className="hover:cursor-pointer rounded-sm bg-indigo-50 px-2 py-1 text-sm font-semibold text-indigo-600 shadow-xs hover:bg-indigo-100 dark:bg-indigo-500/20 dark:text-indigo-400 dark:shadow-none dark:hover:bg-indigo-500/30"
           >
-            count is {count}
+            Count is {count}
           </button>
           <p className="leading-[1.5] text-md capitalize">
             Edit <code className="font-mono text-sm">src/App.tsx</code> and save
