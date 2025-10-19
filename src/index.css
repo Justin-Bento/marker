@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 #root {
-  max-width: var(--container-2xl);
-  margin: 0 auto;
-  aspect-ratio: 16/9;
+  width: var(--container-2xl);
+  margin-inline: auto;
+  aspect-ratio: 16 / 9;
 }
