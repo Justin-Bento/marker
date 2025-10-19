@@ -5,10 +5,11 @@ export default function App() {
         <div className="px-4 py-5 sm:p-6">
           {/* Content goes here */}
           <div className="">
-            <h1 className="">Lorem, ipsum dolor.</h1>
+            <h1 className="">ClearNote.</h1>
             <p className="">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere
-              impedit placeat odit eaque. Facilis id quam error quaerat soluta.
+              A minimal note tool for your browser. When you click the icon, a
+              small pop-up appears for jotting down thoughts or reminders before
+              you write.
             </p>
           </div>
           <div className="mt-2">
@@ -20,6 +21,10 @@ export default function App() {
               defaultValue={""}
             />
           </div>
+          <p>
+            Note * this extension reset every 24 hours, helping you stay focused
+            and intentional without clutter or long-term storage
+          </p>
         </div>
       </div>
     </main>
