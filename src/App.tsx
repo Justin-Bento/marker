@@ -1,7 +1,9 @@
 export default function App() {
   return (
-    <div>
-      <h1>App</h1>
-    </div>
+    <main className="">
+      <div className="overflow-hidden rounded-lg bg-white shadow-sm dark:bg-gray-800/50 dark:shadow-none dark:outline dark:-outline-offset-1 dark:outline-white/10">
+        <div className="px-4 py-5 sm:p-6">{/* Content goes here */}</div>
+      </div>
+    </main>
   );
 }
