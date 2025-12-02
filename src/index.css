@@ -1,7 +1,1 @@
 @import "tailwindcss";
-
-#root {
-  width: var(--container-xl);
-  height: var(--container-xl) / 2;
-  margin-inline: auto;
-}
