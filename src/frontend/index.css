@@ -24,5 +24,6 @@
 }
 
 * {
+  vertical-align: baseline;
   font-family: 'Lexend Variable', sans-serif;
 }
