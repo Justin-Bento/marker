@@ -1,5 +1,10 @@
 export default function App() {
   return (
-    <div>App</div>
+    <main className="">
+      <section className="">
+        <h1>Home Page</h1>
+        <p>Welcome!</p>
+      </section>
+    </main>
   );
 }
