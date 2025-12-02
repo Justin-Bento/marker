@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./frontend/Home";
+import Home from "./Home";
 
 export default function App() {
   return (
