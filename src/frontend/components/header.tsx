@@ -13,7 +13,7 @@ export default function Header() {
               const href = isHome ? '/' : `/${link.toLowerCase()}`;
               return (
                 <li key={index} className="">
-                  <a href={`/${link.toLowerCase()}`} className="capitalize hover:underline">{link}</a>
+                  <a href={href} className="capitalize hover:underline">{link}</a>
                 </li>
               );
             })}
