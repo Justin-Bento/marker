@@ -18,3 +18,9 @@ body {
   max-width: var(--container-7xl);
   margin: 0 auto;
 }
+.langing-copy-laptop {
+  max-width: 80ch;
+  text-wrap: pretty;
+  font-size: var(--text-base);
+  line-height: var(--leading-7);
+}
