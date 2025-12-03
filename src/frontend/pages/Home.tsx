@@ -9,7 +9,7 @@ export default function Home() {
           tools don’t make that any easier. This tracker helps you rebuild focus
           and get back on track effortlessly.
         </p>
-          <a href="https://docs.google.com/document/d/1PuBIeAT3HBt4--GWk0KAV9K6Uo6pJJnQLcDqJNUgPN0/edit?usp=sharing" className="mt-8 bg-primary-400 px-6 py-3 rounded-md capitalize hover:underline hover:cursor-pointer">
+          <a href="https://docs.google.com/document/d/1PuBIeAT3HBt4--GWk0KAV9K6Uo6pJJnQLcDqJNUgPN0/edit?usp=sharing" target="_blank" className="mt-8 bg-primary-400 px-6 py-3 rounded-md capitalize hover:underline hover:cursor-pointer">
             Download Template Today
           </a>
         </section>
