@@ -11,7 +11,7 @@ export default function Header() {
             {linksToWebpage.map((link: string, index:number) => {
               return (
                 <li key={index} className="">
-                  <a href={`/${link.toLocaleLowerCase()}`} className="capitalize">{link}</a>
+                  <a href={`/${link.toLocaleLowerCase()}`} className="capitalize hover:underline">{link}</a>
                 </li>
               );
             })}
