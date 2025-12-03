@@ -10,6 +10,8 @@
 }
 
 @theme {
+  --color-white: #fffcfa;
+  --color-black: #0f0000;
   --color-primary-50: #fff4ed;
   --color-primary-100: #ffe5d4;
   --color-primary-200: #ffc7a9;
@@ -27,7 +29,9 @@
   vertical-align: baseline;
   font-family: 'Lexend Variable', sans-serif;
 }
-
+body {
+  background-color: var(--color-white);
+}
 .wrapper {
   max-width: var(--container-7xl);
   margin: 0 auto;
