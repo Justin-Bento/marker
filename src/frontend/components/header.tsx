@@ -1,6 +1,13 @@
 import CompanyLogo from "../../../public/Marker_RGB_Black.svg";
 
 export default function Header() {
+   const linksToWebpage = [
+    "home",
+    "about",
+    "tutorials",
+    "contact",
+    "support"
+  ]
   return (
     <header className="sticky top-0 z-90 bg-white shadow-sm border-b border-primary-950/10">
       <section className="wrapper py-8">
