@@ -9,6 +9,7 @@ export default function Header() {
         <nav className="">
           <ul className="flex items-center justify-end gap-4">
             {linksToWebpage.map((link: string, index:number) => {
+              const isHome = link.toLowerCase() === "home";
               return (
                 <li key={index} className="">
                   <a href={`/${link.toLowerCase()}`} className="capitalize hover:underline">{link}</a>
