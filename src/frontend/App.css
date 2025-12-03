@@ -1,0 +1,11 @@
+* {
+  vertical-align: baseline;
+  font-family: "Lexend Variable", sans-serif;
+}
+body {
+  background-color: var(--color-white);
+}
+.wrapper {
+  max-width: var(--container-7xl);
+  margin: 0 auto;
+}
