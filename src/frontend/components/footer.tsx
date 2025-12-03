@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer>
+    <footer className="bg-black">
       <section className="wrapper">
         <p>footer</p>
       </section>

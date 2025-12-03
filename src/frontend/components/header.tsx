@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header>
+    <header className="bg-white">
       <section className="wrapper">
         <p>header</p>
       </section>
