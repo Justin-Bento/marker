@@ -24,7 +24,7 @@ body {
   text-transform: capitalize;
   color: var(--color-black);
 }
-.langing-copy-laptop {
+.landing-copy-laptop {
   max-width: 80ch;
   text-wrap: pretty;
   font-size: var(--text-base);

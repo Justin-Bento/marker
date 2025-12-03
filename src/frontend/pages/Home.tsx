@@ -15,7 +15,7 @@ export default function Home() {
         </section>
       <section className="">
         <h2 className="landing-headline-laptop">A Master Document That Works With You</h2>
-        <p className="langing-copy-laptop">
+        <p className="landing-copy-laptop">
           Traditional project trackers assume you already have all the details.
           This one doesn’t. It guides you step-by-step, helping you think,
           write, and shape your project as it develops..
@@ -23,7 +23,7 @@ export default function Home() {
       </section>
       <section className="">
         <h3 className="landing-headline-laptop">It’s Easy to Lose Sight of Your Project’s Vision</h3>
-        <p className="langing-copy-laptop">
+        <p className="landing-copy-laptop">
           Projects get paused. Plans change. Life interrupts. When you return,
           it’s hard to remember your steps or your purpose—and most project
           tools don’t make that any easier. This tracker helps you rebuild focus
@@ -32,7 +32,7 @@ export default function Home() {
       </section>
       <section className="">
         <h4 className="landing-headline-laptop">Don’t have Microsoft Office? no problem </h4>
-        <p className="langing-copy-laptop">
+        <p className="landing-copy-laptop">
           You can open the Project Tracker in over 10 compatible formats. Google
           Docs, Word Online, Apple Pages, Libre Office and more. Use it on any
           device, only without installing extra software.
@@ -40,7 +40,7 @@ export default function Home() {
       </section>
       <section className="">
         <h5 className="landing-headline-laptop">you are the project planner!</h5>
-        <p className="langing-copy-laptop">
+        <p className="landing-copy-laptop">
           At its core, this is a simple Word document. The structure is there to
           support you, but you are the planner who brings the project to life. I
           built this website to show how even one small idea can grow into
@@ -49,7 +49,7 @@ export default function Home() {
       </section>
       <section className="">
         <h6 className="landing-headline-laptop">Here’s what other people have to say about</h6>
-        <p className="langing-copy-laptop">
+        <p className="landing-copy-laptop">
           You can open the Project Tracker in over 10 compatible formats. Google
           Docs, Word Online, Apple Pages, Libre Office and more. Use it on any
           device, only without installing extra software..
