@@ -1,7 +1,9 @@
 export default function Header() {
   return (
     <header>
-      <p>header</p>
+      <section className="wrapper">
+        <p>header</p>
+      </section>
     </header>
-  )
+  );
 }

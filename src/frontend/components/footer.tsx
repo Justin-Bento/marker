@@ -1,7 +1,9 @@
 export default function Footer() {
   return (
     <footer>
-      <p>footer</p>
+      <section className="wrapper">
+        <p>footer</p>
+      </section>
     </footer>
-  )
+  );
 }
