@@ -3,13 +3,13 @@ export default function Home() {
     <main className="wrapper min-h-dvh space-y-20 pb-20">
       <section className="py-20">
         <h1 className="md:text-6xl max-w-[20ch] text-balance leading-20 text-left capitalize">It’s Easy to Lose Sight of Your Project’s Vision</h1>
-        <p className="max-w-[80ch] text-pretty text-xl leading-10 mt-4">
+        <p className="max-w-[80ch] text-pretty text-xl leading-10 mt-4 mb-12">
           Projects get paused. Plans change. Life interrupts. When you return,
           it’s hard to remember your steps or your purpose—and most project
           tools don’t make that any easier. This tracker helps you rebuild focus
           and get back on track effortlessly.
         </p>
-          <a href="https://docs.google.com/document/d/1PuBIeAT3HBt4--GWk0KAV9K6Uo6pJJnQLcDqJNUgPN0/edit?usp=sharing" target="_blank" className="mt-8 bg-primary-400 px-6 py-3 rounded-md capitalize hover:underline hover:cursor-pointer">
+          <a href="https://docs.google.com/document/d/1PuBIeAT3HBt4--GWk0KAV9K6Uo6pJJnQLcDqJNUgPN0/edit?usp=sharing" target="_blank" className="bg-primary-400 px-6 py-3 rounded-md capitalize hover:underline hover:cursor-pointer">
             Download Template Today
           </a>
         </section>
