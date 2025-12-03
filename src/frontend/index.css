@@ -1,1 +1,38 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'Lexend Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(@fontsource-variable/lexend/files/lexend-latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@theme {
+  --color-white: #fffcfa;
+  --color-black: #0f0000;
+  --color-primary-50: #fff4ed;
+  --color-primary-100: #ffe5d4;
+  --color-primary-200: #ffc7a9;
+  --color-primary-300: #ffa072;
+  --color-primary-400: #fe622a; /* Original Primary Color*/
+  --color-primary-500: #fd4612;
+  --color-primary-600: #ee2c08;
+  --color-primary-700: #c51d09;
+  --color-primary-800: #9c1910;
+  --color-primary-900: #7e1810;
+  --color-primary-950: #440706;
+}
+
+* {
+  vertical-align: baseline;
+  font-family: 'Lexend Variable', sans-serif;
+}
+body {
+  background-color: var(--color-white);
+}
+.wrapper {
+  max-width: var(--container-7xl);
+  margin: 0 auto;
+}
