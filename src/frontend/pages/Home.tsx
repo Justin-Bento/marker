@@ -33,15 +33,6 @@ export default function Home() {
         <p className="">Remember: This is for your eyes only.</p>
       </section>
       <section className="">
-        <h3 className="landing-headline-laptop">It’s Easy to Lose Sight of Your Project’s Vision</h3>
-        <p className="landing-copy-laptop">
-          Projects get paused. Plans change. Life interrupts. When you return,
-          it’s hard to remember your steps or your purpose—and most project
-          tools don’t make that any easier. This tracker helps you rebuild focus
-          and get back on track effortlessly.
-        </p>
-      </section>
-      <section className="">
         <h4 className="landing-headline-laptop">Don’t have Microsoft Office? no problem </h4>
         <p className="landing-copy-laptop">
           You can open the Project Tracker in over 10 compatible formats. Google
