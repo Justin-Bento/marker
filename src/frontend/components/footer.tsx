@@ -13,14 +13,89 @@ export default function Footer() {
           {/*  */}
           <div className="flex flex-col items-end *:text-right">
             <h6 className="">About Us</h6>
+            <ul className="mt-3">
+              <li>
+                <a href="" className="">
+                  Link Item Here
+                </a>
+              </li>
+              <li>
+                <a href="" className="">
+                  Link Item Here
+                </a>
+              </li>
+              <li>
+                <a href="" className="">
+                  Link Item Here
+                </a>
+              </li>
+              <li>
+                <a href="" className="">
+                  Link Item Here
+                </a>
+              </li>
+              <li>
+                <a href=""> </a>
+              </li>
+            </ul>
           </div>
           {/*  */}
           <div className="flex flex-col items-end *:text-right">
             <h6 className="">Support</h6>
+            <ul className="mt-3">
+              <li>
+                <a href="" className="">
+                  Link Item Here
+                </a>
+              </li>
+              <li>
+                <a href="" className="">
+                  Link Item Here
+                </a>
+              </li>
+              <li>
+                <a href="" className="">
+                  Link Item Here
+                </a>
+              </li>
+              <li>
+                <a href="" className="">
+                  Link Item Here
+                </a>
+              </li>
+              <li>
+                <a href=""> </a>
+              </li>
+            </ul>
           </div>
           {/*  */}
           <div className="flex flex-col items-end *:text-right">
             <h6 className="">Helpful Links</h6>
+            <ul className="mt-3">
+              <li>
+                <a href="" className="">
+                  Link Item Here
+                </a>
+              </li>
+              <li>
+                <a href="" className="">
+                  Link Item Here
+                </a>
+              </li>
+              <li>
+                <a href="" className="">
+                  Link Item Here
+                </a>
+              </li>
+              <li>
+                <a href="" className="">
+                  Link Item Here
+                </a>
+              </li>
+              <li>
+                <a href=""> </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
