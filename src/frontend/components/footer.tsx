@@ -11,15 +11,15 @@ export default function Footer() {
             </a>
           </div>
           {/*  */}
-          <div className="">
+          <div className="flex flex-col items-end *:text-right">
             <h6 className="">About Us</h6>
           </div>
           {/*  */}
-          <div className="">
+          <div className="flex flex-col items-end *:text-right">
             <h6 className="">Support</h6>
           </div>
           {/*  */}
-          <div className="">
+          <div className="flex flex-col items-end *:text-right">
             <h6 className="">Helpful Links</h6>
           </div>
         </div>
