@@ -33,7 +33,7 @@ export default function Home() {
         <p className="">Remember: This is for your eyes only.</p>
       </section>
       <section className="">
-        <h4 className="landing-headline-laptop">Don’t have Microsoft Office? no problem </h4>
+        <h3 className="landing-headline-laptop">Don’t have Microsoft Office? no problem </h3>
         <p className="landing-copy-laptop">
           You can open the Project Tracker in over 10 compatible formats. Google
           Docs, Word Online, Apple Pages, Libre Office and more. Use it on any
@@ -41,7 +41,7 @@ export default function Home() {
         </p>
       </section>
       <section className="">
-        <h5 className="landing-headline-laptop">you are the project planner!</h5>
+        <h4 className="landing-headline-laptop">you are the project planner!</h4>
         <p className="landing-copy-laptop">
           At its core, this is a simple Word document. The structure is there to
           support you, but you are the planner who brings the project to life. I
@@ -50,7 +50,7 @@ export default function Home() {
         </p>
       </section>
       <section className="">
-        <h6 className="landing-headline-laptop">Here’s what other people have to say about</h6>
+        <h5 className="landing-headline-laptop">Here’s what other people have to say about</h5>
         <p className="landing-copy-laptop">
           You can open the Project Tracker in over 10 compatible formats. Google
           Docs, Word Online, Apple Pages, Libre Office and more. Use it on any
