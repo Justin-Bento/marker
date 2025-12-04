@@ -7,11 +7,13 @@ export default function App() {
   return (
     <>
       <Header />
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </Router>
+      <main className="wrapper min-h-dvh space-y-20 pb-20">
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </Router>
+      </main>
       <Footer />
     </>
   );
