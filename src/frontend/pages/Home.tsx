@@ -61,8 +61,8 @@ export default function Home() {
           </ul>
         </div>
         <div className="my-12 p-6 rounded-xl bg-black *:text-white border">
-          <ul className="">
             <p className="text-xl font-bold tracking-wide capitalize">Access it on the cloud.</p>
+          <ul className="">
             <li className="">Google Docs</li>
             <li className="">Dropbox Paper</li>
             <li className="">Office Online</li>
