@@ -49,7 +49,8 @@ export default function Home() {
           It's just a document that on the comptuer and is free for you to use
           and share. Here are some software I'd reccmend for the best expeeince
         </p>
-        <div className="my-12">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="my-12 p-6 rounded-xl bg-black *:text-white border">
           <p>Software to Download based on your local system</p>
           <ul className="">
             <li className="">Google Docs</li>
@@ -59,7 +60,7 @@ export default function Home() {
             <li className="">PDF</li>
           </ul>
         </div>
-        <div className="my-12">
+        <div className="my-12 p-6 rounded-xl bg-black *:text-white border">
           <ul className="">
             <p>Software to Download based on the cloud.</p>
             <li className="">Google Docs</li>
@@ -67,6 +68,7 @@ export default function Home() {
             <li className="">Office Online</li>
           </ul>
         </div>
+      </div>
       </section>
       <section className="">
         <h4 className="landing-headline-laptop">
