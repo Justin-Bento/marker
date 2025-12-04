@@ -10,6 +10,10 @@ export default function Footer() {
               <img src={CompanyLogo} className="w-32 m-0 p-0" />
             </a>
           </div>
+          {/*  */}
+          <div className="">
+            <h6 className="">About Us</h6>
+          </div>
         </div>
       </div>
     </footer>
