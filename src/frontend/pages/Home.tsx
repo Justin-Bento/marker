@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="wrapper min-h-dvh space-y-20 pb-20">
+    <>
       <section className="py-20">
         <h1 className="md:text-6xl max-w-[20ch] text-balance leading-20 text-left capitalize">It’s Easy to Lose Sight of Your Project’s Vision</h1>
         <p className="max-w-[80ch] text-pretty text-xl leading-10 mt-4 mb-12">
@@ -73,6 +73,6 @@ export default function Home() {
           device, only without installing extra software..
         </p>
       </section>
-    </main>
+    </>
   );
 }
