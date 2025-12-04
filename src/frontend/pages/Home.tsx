@@ -52,7 +52,7 @@ export default function Home() {
         </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 mt-12 gap-12">
-          <div className="col-span-2 md:col-span-1 p-6 rounded-xl bg-black *:text-white border">
+          <div className="col-span-2 md:col-span-1 p-6 rounded-xl bg-stone-700 *:text-white border">
             <p className="text-xl font-bold tracking-wide capitalize">
               Access it on your local system
             </p>
@@ -63,7 +63,7 @@ export default function Home() {
             </ul>
           </div>
 
-          <div className="col-span-2 md:col-span-1 p-6 rounded-xl bg-black *:text-white border">
+          <div className="col-span-2 md:col-span-1 p-6 rounded-xl bg-stone-700 *:text-white border">
             <p className="text-xl font-bold tracking-wide capitalize">
               Access it on the cloud
             </p>
