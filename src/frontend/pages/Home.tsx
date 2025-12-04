@@ -35,10 +35,26 @@ export default function Home() {
       <section className="">
         <h3 className="landing-headline-laptop">Don’t have Microsoft Office? no problem </h3>
         <p className="landing-copy-laptop">
-          You can open the Project Tracker in over 10 compatible formats. Google
-          Docs, Word Online, Apple Pages, Libre Office and more. Use it on any
-          device, only without installing extra software.
+          It's just a document that on the comptuer and is free for you to use and share. Here are some software I'd reccmend for the best expeeince 
         </p>
+        <div className="my-12">
+          <p>Software to Download based on your local system</p>
+          <ul className="">
+            <li className="">Google Docs</li>
+            <li className="">Apple Pages.</li>
+            <li className="">Libre Office.</li>
+            <li className="">Obsidian</li>
+            <li className="">PDF</li>
+          </ul>
+        </div>
+        <div className="my-12">
+          <ul className="">
+            <p>Software to Download based on the cloud.</p>
+            <li className="">Google Docs</li>
+            <li className="">Dropbox Paper</li>
+            <li className="">Office Online</li>
+          </ul>
+        </div>
       </section>
       <section className="">
         <h4 className="landing-headline-laptop">you are the project planner!</h4>
