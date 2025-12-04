@@ -43,33 +43,34 @@ export default function Home() {
       </section>
       <section className="">
         <h3 className="landing-headline-laptop">
-          Don’t have Microsoft Office? no problem{" "}
+          Don’t have Microsoft Office?
         </h3>
         <p className="landing-copy-laptop">
-          It's just a document that on the comptuer and is free for you to use
-          and share. Here are some software I'd reccmend for the best expeeince
+          No problem! It’s just a digital document, and you can open it with any
+          word processor. Plus, it’s completely free for you to use and share
+          with your friends. If you find it helpful share your story.
         </p>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="my-12 p-6 rounded-xl bg-black *:text-white border">
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 mt-12 gap-12">
+          <div className="col-span-2 md:col-span-1 p-6 rounded-xl bg-black *:text-white border">
             <p className="text-xl font-bold tracking-wide capitalize">
-              Access it On Your Local system
+              Access it on your local system
             </p>
-            <ul className="">
-              <li className="">Google Docs</li>
-              <li className="">Apple Pages.</li>
-              <li className="">Libre Office.</li>
-              <li className="">Obsidian</li>
-              <li className="">PDF</li>
+            <ul>
+              <li>Apple Pages</li>
+              <li>LibreOffice</li>
+              <li>Obsidian</li>
             </ul>
           </div>
-          <div className="my-12 p-6 rounded-xl bg-black *:text-white border">
+
+          <div className="col-span-2 md:col-span-1 p-6 rounded-xl bg-black *:text-white border">
             <p className="text-xl font-bold tracking-wide capitalize">
-              Access it on the cloud.
+              Access it on the cloud
             </p>
-            <ul className="">
-              <li className="">Google Docs</li>
-              <li className="">Dropbox Paper</li>
-              <li className="">Office Online</li>
+            <ul>
+              <li>Google Docs</li>
+              <li>Dropbox Paper</li>
+              <li>Office Online</li>
             </ul>
           </div>
         </div>
