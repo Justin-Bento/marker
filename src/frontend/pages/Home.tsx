@@ -14,12 +14,23 @@ export default function Home() {
           </a>
         </section>
       <section className="">
-        <h2 className="landing-headline-laptop">A Master Document That Works With You</h2>
+        <h2 className="landing-headline-laptop">A Document That Works With You!</h2>
         <p className="landing-copy-laptop">
-          Traditional project trackers assume you already have all the details.
-          This one doesn’t. It guides you step-by-step, helping you think,
-          write, and shape your project as it develops..
+          Traditional project trackers assume you already have all the details. 
+          This one doesn’t. It gives you room to think, write, and shape your project as it develops.
         </p>
+        <div className="my-12">
+          <p>What's Inside The Document?</p>
+          <ul className="">
+            <li className="">Cover Page</li>
+            <li className="">Why Does It Matter?</li>
+            <li className="">Where Will It Be Located?</li>
+            <li className="">Brainstorming Dump</li>
+            <li className="">Commitment & Completion</li>
+            <li className="">Reflection & Lessons Learned</li>
+          </ul>
+        </div>
+        <p className="">Remember: This is for your eyes only.</p>
       </section>
       <section className="">
         <h3 className="landing-headline-laptop">It’s Easy to Lose Sight of Your Project’s Vision</h3>
