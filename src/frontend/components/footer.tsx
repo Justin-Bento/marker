@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-black *:text-white">
       <div className="wrapper py-12">
         <div className="grid lg:grid-cols-5">
-          <div className="col-span-2-">
+          <div className="col-span-2">
             <a href="/">
               <img src={CompanyLogo} className="w-32 m-0 p-0" />
             </a>
