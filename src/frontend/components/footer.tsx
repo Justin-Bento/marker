@@ -14,6 +14,10 @@ export default function Footer() {
           <div className="">
             <h6 className="">About Us</h6>
           </div>
+          {/*  */}
+          <div className="">
+            <h6 className="">Support</h6>
+          </div>
         </div>
       </div>
     </footer>
