@@ -51,7 +51,7 @@ export default function Home() {
         </p>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="my-12 p-6 rounded-xl bg-black *:text-white border">
-          <p>Software to Download based on your local system</p>
+          <p className="text-xl font-bold tracking-wide capitalize">Access it On Your Local system</p>
           <ul className="">
             <li className="">Google Docs</li>
             <li className="">Apple Pages.</li>
@@ -62,7 +62,7 @@ export default function Home() {
         </div>
         <div className="my-12 p-6 rounded-xl bg-black *:text-white border">
           <ul className="">
-            <p>Software to Download based on the cloud.</p>
+            <p className="text-xl font-bold tracking-wide capitalize">Access it on the cloud.</p>
             <li className="">Google Docs</li>
             <li className="">Dropbox Paper</li>
             <li className="">Office Online</li>
