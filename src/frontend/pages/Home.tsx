@@ -30,7 +30,7 @@ export default function Home() {
             and shape your project as it develops.
           </p>
         </div>
-        <ul className="col-span-3 grid grid-cols-subgrid">
+        <ul className="col-span-3 grid grid-cols-subgrid [&>li]:border [&>li]:p-6 gap-6">
           <li className="">Cover Page</li>
           <li className="">Why Does It Matter?</li>
           <li className="">Where Will It Be Located?</li>
