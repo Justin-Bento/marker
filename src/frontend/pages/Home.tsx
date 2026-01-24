@@ -20,14 +20,16 @@ export default function Home() {
         </a>
       </section>
       <section className="">
-        <h2 className="landing-headline-laptop">
-          A Document That Works With You!
-        </h2>
-        <p className="landing-copy-laptop">
-          Traditional project trackers assume you already have all the details.
-          This one doesn&rsquo;t. It gives you room to think, write, and shape
-          your project as it develops.
-        </p>
+        <div className="">
+          <h2 className="landing-headline-laptop">
+            A Document That Works With You!
+          </h2>
+          <p className="landing-copy-laptop">
+            Traditional project trackers assume you already have all the
+            details. This one doesn&rsquo;t. It gives you room to think, write,
+            and shape your project as it develops.
+          </p>
+        </div>
         <div className="my-12">
           <p>What's Inside The Document?</p>
           <ul className="">
