@@ -19,8 +19,8 @@ export default function Home() {
           Download Template Today
         </a>
       </section>
-      <section className="">
-        <div className="">
+      <section className="grid grid-cols-2 gap-6">
+        <div className="col-span-2">
           <h2 className="landing-headline-laptop">
             A Document That Works With You!
           </h2>
@@ -30,7 +30,7 @@ export default function Home() {
             and shape your project as it develops.
           </p>
         </div>
-        <ul className="">
+        <ul className="col-span-3 grid grid-cols-subgrid">
           <li className="">Cover Page</li>
           <li className="">Why Does It Matter?</li>
           <li className="">Where Will It Be Located?</li>
@@ -38,7 +38,7 @@ export default function Home() {
           <li className="">Commitment & Completion</li>
           <li className="">Reflection & Lessons Learned</li>
         </ul>
-        <p className="">Remember: This is for your eyes only.</p>
+        <p className="col-span-2">Remember: This is for your eyes only.</p>
       </section>
       <section className="">
         <h3 className="landing-headline-laptop">
