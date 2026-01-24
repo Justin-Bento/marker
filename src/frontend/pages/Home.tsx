@@ -30,17 +30,14 @@ export default function Home() {
             and shape your project as it develops.
           </p>
         </div>
-        <div className="my-12">
-          <p>What's Inside The Document?</p>
-          <ul className="">
-            <li className="">Cover Page</li>
-            <li className="">Why Does It Matter?</li>
-            <li className="">Where Will It Be Located?</li>
-            <li className="">Brainstorming Dump</li>
-            <li className="">Commitment & Completion</li>
-            <li className="">Reflection & Lessons Learned</li>
-          </ul>
-        </div>
+        <ul className="">
+          <li className="">Cover Page</li>
+          <li className="">Why Does It Matter?</li>
+          <li className="">Where Will It Be Located?</li>
+          <li className="">Brainstorming Dump</li>
+          <li className="">Commitment & Completion</li>
+          <li className="">Reflection & Lessons Learned</li>
+        </ul>
         <p className="">Remember: This is for your eyes only.</p>
       </section>
       <section className="">
