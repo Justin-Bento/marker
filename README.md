@@ -1,6 +1,8 @@
 # Marker
 
-A simple word document that is designed to help developers track their projects and reflect on their learning. The goal of this document is to capture your own ideas, document outcomes, and generate insights for future improvements.
+Marker is a simple learning journal designed to help people track projects and reflect on their learning. Its goal is to capture ideas, document outcomes, and generate insights that support future improvement.
+
+The project originally began as a Chrome extension and was later rebuilt as a React application after the project’s direction changed to a word document. This repository serves as a marketing website that demonstrates how the document can be used effectively for projects or learning something new.
 
 - Started: 17th October 2025
 - Status: In Progress
