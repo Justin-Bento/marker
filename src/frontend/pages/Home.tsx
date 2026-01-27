@@ -10,7 +10,7 @@ export default function Home() {
         <h1 className="md:text-6xl max-w-[20ch] text-balance leading-20 text-left capitalize">
           It&rsquo;s Easy to Lose Sight of Your Project&rsquo;s Vision
         </h1>
-        <p className="max-w-[80ch] text-pretty text-xl leading-10 mt-4 mb-12">
+        <p className="max-w-[80ch] text-pretty text-xl leading-10 mt-4 mb-8">
           Projects get paused. Plans change. Life interrupts. When you return,
           it&rsquo;s hard to remember your steps or your purpose&mdash;and most
           project tools don&rsquo;t make that any easier. This tracker helps you
@@ -19,7 +19,7 @@ export default function Home() {
         <a
           href="https://docs.google.com/document/d/1PuBIeAT3HBt4--GWk0KAV9K6Uo6pJJnQLcDqJNUgPN0/edit?usp=sharing"
           target="_blank"
-          className="bg-primary-400 px-6 py-3 rounded-md capitalize hover:underline hover:cursor-pointer"
+          className="block w-fit bg-primary-400 px-6 py-3 rounded-md capitalize hover:underline hover:cursor-pointer"
         >
           Download Template Today
         </a>
