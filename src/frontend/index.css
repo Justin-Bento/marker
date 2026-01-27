@@ -2,8 +2,8 @@
 @import "./App.css";
 
 @theme {
-  --color-white: #fffcfa;
-  --color-black: #0f0000;
+  --color-white: #f8f9fa;
+  --color-black: #212529;
   --color-primary-50: #fff4ed;
   --color-primary-100: #ffe5d4;
   --color-primary-200: #ffc7a9;
@@ -15,5 +15,21 @@
   --color-primary-800: #9c1910;
   --color-primary-900: #7e1810;
   --color-primary-950: #440706;
+  /* Gray Color Theme */
+  --color-gray-1: #f1f3f5;
+  --color-gray-1-rgb: 241, 243, 245;
+  --color-gray-2: #e9ecef;
+  --color-gray-2-rgb: 233, 236, 239;
+  --color-gray-3: #dee2e6;
+  --color-gray-3-rgb: 222, 226, 230;
+  --color-gray-4: #ced4da;
+  --color-gray-4-rgb: 206, 212, 218;
+  --color-gray-5: #adb5bd;
+  --color-gray-5-rgb: 173, 181, 189;
+  --color-gray-6: #868e96;
+  --color-gray-6-rgb: 134, 142, 150;
+  --color-gray-7: #495057;
+  --color-gray-7-rgb: 73, 80, 87;
+  --color-gray-8: #343a40;
+  --color-gray-8-rgb: 52, 58, 64;
 }
-
