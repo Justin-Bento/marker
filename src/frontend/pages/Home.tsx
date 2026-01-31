@@ -23,6 +23,23 @@ export default function Home() {
         >
           Download Template Today
         </a>
+        <div className="flex flex-col items-center gap-8">
+          <img
+            src="/media/scott-graham-5fNmWej4tAA-unsplash.jpg"
+            alt=""
+            className="w-full aspect-video rounded-xl bg-gray-6 mt-12"
+          ></img>
+          <p className="text-sm capitalize">
+            Thanks&nbsp;
+            <a
+              href="https://unsplash.com/@amstram"
+              className="underline"
+              target="_blank"
+            >
+              Scott Gram
+            </a>
+          </p>
+        </div>
       </section>
       <section className="grid grid-cols-2 gap-6">
         <div className="col-span-2">
