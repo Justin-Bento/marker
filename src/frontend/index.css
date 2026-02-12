@@ -32,4 +32,6 @@
   --color-gray-7-rgb: 73, 80, 87;
   --color-gray-8: #343a40;
   --color-gray-8-rgb: 52, 58, 64;
+  /*  */
+  --default-font-family: "Inter Variable";
 }
