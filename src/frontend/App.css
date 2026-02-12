@@ -1,9 +1,10 @@
+/* inter-latin-wght-normal */
 @font-face {
-  font-family: "Lexend Variable";
+  font-family: "Inter Variable";
   font-style: normal;
   font-display: swap;
   font-weight: 100 900;
-  src: url(@fontsource-variable/lexend/files/lexend-latin-wght-normal.woff2)
+  src: url(@fontsource-variable/inter/files/inter-latin-wght-normal.woff2)
     format("woff2-variations");
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -13,7 +14,6 @@
 
 * {
   vertical-align: baseline;
-  font-family: "Lexend Variable", sans-serif;
 }
 body {
   background-color: var(--color-white);
