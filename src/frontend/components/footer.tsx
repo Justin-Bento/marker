@@ -13,7 +13,6 @@ export default function Footer() {
             </p>
           </div>
           {/*  */}
-          ="{" "}
           <div className="col-span-1 flex flex-col lg:items-end lg:*:text-right">
             <h6 className="">About Us</h6>
             <ul className="mt-3">
@@ -48,7 +47,7 @@ export default function Footer() {
             <ul className="mt-3">
               <li>
                 <a href="" className="">
-                  Link ItCompanyLogoem Here
+                  Link Item Here
                 </a>
               </li>
               <li>
