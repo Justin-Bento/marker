@@ -277,17 +277,19 @@ export default function Home() {
       <section className="flex items-center justify-center bg-gray-3 w-full h-96 rounded-2xl">
         <div className="grid items-center max-w-6xl grid-cols-2">
           <div className="col-span-2 lg:col-span-1 space-y-3">
-            <h2 className="">Ready to build your next project with Marker?</h2>
+            <h2 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0 capitalize">
+              Ready to build your next project?
+            </h2>
             <p>
               Experience the beauty of building a copmlex project from scratch
               with something as simple document and your ideas.
             </p>
             <a
               href="https://github.com/Justin-Bento/marker"
-              className=""
+              className="bg-gray-900 text-gray-50  [a]:hover:bg-gray-800 text-sm font-medium inline-flex items-center justify-center whitespace-nowrap transition-all h-8 gap-1.5 px-2.5 rounded-md"
               target="_blank"
             >
-              Fork Edit and Deploy
+              Fork Edit & Deploy
             </a>
           </div>
           <div className="col-span-2 lg:col-span-1">
