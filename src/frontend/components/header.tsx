@@ -1,5 +1,5 @@
 export default function Header() {
-  const linksToWebpage = ["home", "about", "tutorials", "contact", "support"];
+  const linksToWebpage = ["home", "about", "support", "contact"];
   return (
     <header className="bg-white shadow-sm border-b border-primary-950/10">
       <div className="wrapper py-8 grid grid-cols-2 gap-4 items-center">
