@@ -274,25 +274,25 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="">
-        <h5 className="text-3xl font-serif italic leading-snug">
-          Consistency is the only currency that matters in deep work.
-        </h5>
-        <div className="flex items-center gap-4 mt-8">
-          <div className="size-16 rounded-full bg-gray-6"></div>
-          <span className="[&>p]:text-sm">
-            <p className="font-bold">Shared By The Community</p>
-            <p className="text-gray-6">Not a Real Person </p>
-          </span>
-        </div>
-        <div className="bg-gray-100 p-8 rounded-2xl border border-gray-4 mt-12">
-          <p className="text-primary-600 uppercase text-xs font-mono tracking-wide font-semibold">
-            Wide Compatiblity
-          </p>
-          <p>
-            You can open the Project Tracker in over 10 compatible formats.
-            Google Docs, Word Online, Apple Pages, Libre Office and more.
-          </p>
+      <section className="flex items-center justify-center bg-gray-3 w-full h-96 rounded-2xl">
+        <div className="grid items-center max-w-6xl grid-cols-2">
+          <div className="col-span-2 lg:col-span-1 space-y-3">
+            <h2 className="">Ready to build your next project with Marker?</h2>
+            <p>
+              Experience the beauty of building a copmlex project from scratch
+              with something as simple document and your ideas.
+            </p>
+            <a
+              href="https://github.com/Justin-Bento/marker"
+              className=""
+              target="_blank"
+            >
+              Fork Edit and Deploy
+            </a>
+          </div>
+          <div className="col-span-2 lg:col-span-1">
+            <img src="/image-placeholder.webp" alt="" className="" />
+          </div>
         </div>
       </section>
     </>
