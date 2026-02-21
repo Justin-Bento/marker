@@ -274,8 +274,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="flex items-center justify-center bg-gray-3 w-full h-96 rounded-2xl">
-        <div className="grid items-center max-w-6xl grid-cols-2">
+      <section className="flex items-center justify-center bg-gray-1 w-full min-h-96 rounded-2xl">
+        <div className="p-6 lg:px-24 grid items-center max-w-6xl grid-cols-2 gap-8">
           <div className="col-span-2 lg:col-span-1 space-y-3">
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0 capitalize">
               Ready to build your next project?
@@ -293,7 +293,11 @@ export default function Home() {
             </a>
           </div>
           <div className="col-span-2 lg:col-span-1">
-            <img src="/image-placeholder.webp" alt="" className="" />
+            <img
+              src="/image-placeholder.webp"
+              alt=""
+              className="rounded-xl aspect-video"
+            />
           </div>
         </div>
       </section>
