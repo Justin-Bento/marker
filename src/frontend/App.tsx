@@ -10,7 +10,7 @@ export default function App() {
   return (
     <>
       <Header />
-      <main className="wrapper min-h-dvh space-y-20 pb-20">
+      <main className="container mx-auto max-w-6xl min-h-dvh space-y-20 py-20">
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />

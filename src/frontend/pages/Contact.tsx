@@ -7,7 +7,7 @@ export default function Contact() {
   }, []);
   return (
     <>
-      <article className="grid md:grid-cols-2 gap-10 mx-auto mt-16">
+      <article className="grid md:grid-cols-2 gap-10 mx-auto">
         <section className="">
           <div>
             <h2 className="font-medium text-2xl text-gray-800">

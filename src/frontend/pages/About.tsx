@@ -6,7 +6,7 @@ export default function About() {
   }, []);
   return (
     <>
-      <section className="mt-32 max-w-[80ch] mx-auto">
+      <section className="">
         <img src="/image-placeholder.webp" alt="" />
         <span className="flex flex-col-reverse gap-2 mb-4 mt-12">
           <h1 className="scroll-m-20 text-4xl font-extrabold text-balance">

@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="bg-black *:text-white">
-      <div className="wrapper px-6 py-12 lg:p-12">
+      <div className="container mx-auto max-w-6xl px-6 py-12 lg:p-12">
         <div className="grid gap-8 sm:grid-cols-3 lg:grid-cols-5">
           <div className="col-span-1 sm:col-span-4 lg:col-span-2">
             <a href="/" className="block">

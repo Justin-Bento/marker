@@ -6,7 +6,7 @@ export default function Home() {
   }, []);
   return (
     <>
-      <section className="py-20">
+      <section className="">
         <h1 className="font-serif md:text-6xl max-w-[20ch] text-balance leading-20 text-left capitalize">
           It&rsquo;s Easy to Lose Sight of Your Project&rsquo;s Vision
         </h1>
