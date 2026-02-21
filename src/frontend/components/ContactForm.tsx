@@ -22,8 +22,8 @@ export default function ContactForm() {
       {/* register your input into the hook by invoking the "register" function */}
       <div>
         <label
-          for="fullName"
-          class="block text-sm/6 font-medium text-gray-900 dark:text-white"
+          htmlFor="fullName"
+          className="block text-sm/6 font-medium text-gray-900 dark:text-white"
         >
           Full Name
         </label>
@@ -39,8 +39,8 @@ export default function ContactForm() {
       </div>
       <div>
         <label
-          for="email"
-          class="block text-sm/6 font-medium text-gray-900 dark:text-white"
+          htmlFor="email"
+          className="block text-sm/6 font-medium text-gray-900 dark:text-white"
         >
           Email
         </label>
@@ -56,8 +56,8 @@ export default function ContactForm() {
       </div>
       <div>
         <label
-          for="Subject"
-          class="block text-sm/6 font-medium text-gray-900 dark:text-white"
+          htmlFor="Subject"
+          className="block text-sm/6 font-medium text-gray-900 dark:text-white"
         >
           Subject
         </label>
@@ -73,8 +73,8 @@ export default function ContactForm() {
       </div>
       <div>
         <label
-          for="message"
-          class="block text-sm/6 font-medium text-gray-900 dark:text-white"
+          htmlFor="message"
+          className="block text-sm/6 font-medium text-gray-900 dark:text-white"
         >
           Your Message
         </label>
