@@ -8,8 +8,10 @@ export default function Support() {
   return (
     <>
       <section className="max-w-[80ch] mx-auto text-center space-y-6">
-        <h1 className="text-6xl font-serif">Support & Documentation.</h1>
-        <p className="text-2xl font-serif italic text-gray-800">
+        <h1 className="font-serif text-5xl/12 tracking-tight text-balance sm:text-[5rem]/20">
+          Support & Documentation.
+        </h1>
+        <p className="text-xl/9 text-gray-700 capitalize font-serif">
           How to use the WordDock system to master any skill.
         </p>
       </section>

@@ -9,8 +9,10 @@ export default function Contact() {
     <>
       <article className="grid md:grid-cols-2 gap-10 mx-auto">
         <div className="col-span-2">
-          <h2 className="font-serif text-5xl text-gray-800">Get in Touch</h2>
-          <p className="text-xl font-serif leading-relaxed text-gray-900 mt-3 max-w-prose">
+          <h2 className="font-serif text-5xl/12 tracking-tight text-balance sm:text-[5rem]/20">
+            Get in Touch
+          </h2>
+          <p className="text-xl/8 font-serif text-gray-900 mt-3 max-w-xl">
             Have a question or just want to share how you're using Marker? Reach
             out — we'd love to hear from you.
           </p>

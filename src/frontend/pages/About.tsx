@@ -10,8 +10,10 @@ export default function About() {
   return (
     <>
       <section className="text-balance space-y-6 leading-7 font-serif text-center">
-        <h1 className="text-6xl tracking-wide  text-balance">The Vision</h1>
-        <p className="text-2xl italic text-gray-800">
+        <h1 className="font-serif text-5xl/12 tracking-tight text-balance sm:text-[5rem]/20">
+          The Vision
+        </h1>
+        <p className="text-xl/9 text-gray-700 capitalize">
           "Software should serve the user, not the other way around."
         </p>
       </section>
@@ -65,7 +67,7 @@ export default function About() {
         <a
           href="https://docs.google.com/document/d/1PuBIeAT3HBt4--GWk0KAV9K6Uo6pJJnQLcDqJNUgPN0/edit?usp=sharing"
           target="_blank"
-          className="inline-flex items-center gap-2 bg-primary-900 text-primary-50 px-6 py-3 rounded-md text-lg font-medium hover:opacity-90 transition-all w-fit"
+          className="inline-flex shrink-0 items-center justify-center gap-3 rounded-full text-sm/7 font-medium bg-primary-950 text-white hover:bg-primary-800 dark:bg-primary-300 dark:text-primary-950 dark:hover:bg-primary-200 px-4 py-2"
         >
           <HiDownload className="w-5 h-5" /> Download Template
         </a>

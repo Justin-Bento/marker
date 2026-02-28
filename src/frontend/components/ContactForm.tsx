@@ -126,7 +126,7 @@ export default function ContactForm() {
 
       <button
         type="submit"
-        className="rounded-sm bg-gray-600 px-2 py-1 text-sm font-semibold text-white shadow-xs hover:bg-gray-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 dark:bg-gray-500 dark:shadow-none dark:hover:bg-gray-400 dark:focus-visible:outline-gray-500 hover:cursor-pointer"
+        className="inline-flex shrink-0 items-center justify-center gap-3 rounded-full text-sm/7 font-medium bg-primary-950 text-white hover:bg-primary-800 dark:bg-primary-300 dark:text-primary-950 dark:hover:bg-primary-200 px-4 py-1.5"
       >
         Submit
       </button>
