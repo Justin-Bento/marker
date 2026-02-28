@@ -1,36 +1,12 @@
 import { useEffect } from "react";
-import {
-  HiDownload,
-  HiOutlineDocument,
-  HiOutlineHeart,
-  HiOutlineUser,
-  HiOutlineViewGrid,
-} from "react-icons/hi";
+import { HiDownload, HiOutlineHeart } from "react-icons/hi";
+import { values } from "../../data";
 
 export default function About() {
   useEffect(() => {
     document.title = "About - Marker";
   }, []);
-  const values = [
-    {
-      icon: <HiOutlineDocument className="size-6" />,
-      title: "Radical Simplicity",
-      description:
-        "No accounts, no subscriptions, no complex databases. Just a file that lives on your machine.",
-    },
-    {
-      icon: <HiOutlineUser className="size-6" />,
-      title: "True Ownership",
-      description:
-        "Your data shouldn't be trapped in a proprietary cloud. A .docx file is yours forever.",
-    },
-    {
-      icon: <HiOutlineViewGrid className="size-6" />,
-      title: "Focus by Design",
-      description:
-        "We stripped away the notifications and 'collaboration features' that actually just distract you.",
-    },
-  ];
+
   return (
     <>
       <section className="text-balance space-y-6 leading-7 font-serif text-center">
