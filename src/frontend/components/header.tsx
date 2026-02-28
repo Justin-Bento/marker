@@ -10,13 +10,16 @@ export default function Header() {
           <p className="inline-block lg:hidden">menu</p>
         </div>
         <nav className="col-span-2 hidden lg:col-span-1 lg:flex lg:items-center lg:justify-end">
-          <ul className="flex items-center justify-between gap-4">
+          <ul className="flex items-center justify-between">
             {linksToWebpage.map((link: string, index: number) => {
               const isHome = link.toLowerCase() === "home";
               const href = isHome ? "/" : `/${link.toLowerCase()}`;
               return (
                 <li key={index} className="">
-                  <a href={href} className="capitalize hover:underline">
+                  <a
+                    href={href}
+                    className="font-medium rounded-lg px-3 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 capitalize"
+                  >
                     {link}
                   </a>
                 </li>
