@@ -55,3 +55,36 @@ export const faq = [
       "Only if you want it to. Since it's a Word doc, you can copy/paste your commitments directly into any calendar app of your choice.",
   },
 ];
+
+export const sections = [
+  {
+    title: "Cover Page",
+    description:
+      "Set the foundation. Name your project, define its type, and record your start date so every session begins with context.",
+  },
+  {
+    title: "Why Does It Matter?",
+    description:
+      "Capture your reason before momentum fades. Two to five sentences on why this project is worth your time — just for you.",
+  },
+  {
+    title: "Where Will It Be Located?",
+    description:
+      "Decide where the finished work lives — analog or digital. Knowing the destination keeps your decisions pointed in the right direction.",
+  },
+  {
+    title: "Brainstorming Dump",
+    description:
+      "No structure, no limits. Drop every idea, link, sketch, or constraint here before you start filtering. Capture first, organize later.",
+  },
+  {
+    title: "Commitment & Completion",
+    description:
+      "Define the finish line. Set a target date, name what you plan to ship, and call out what might get cut before scope creep decides for you.",
+  },
+  {
+    title: "Reflection & Lessons Learned",
+    description:
+      "Close the loop. Record what shipped, what surprised you, and what you would do differently to ensure a smooth experience.",
+  },
+];

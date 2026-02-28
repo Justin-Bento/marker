@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { sections } from "../../data";
 
 export default function Home() {
   useEffect(() => {
@@ -69,81 +70,21 @@ export default function Home() {
           </p>
         </div>
         <ul className="cols-span-2 lg:col-span-3 sm:grid grid-cols-subgrid  gap-8">
-          <li className="rounded-lg border p-6 border-gray-400">
-            <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
-            <p className="text-xl font-medium text-black dark:text-white font-serif">
-              Cover Page
-            </p>
-            <p className="text-sm leading-6 text-gray-700 mt-1.5 line-clamp-3">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Mollitia, consequuntur neque illo placeat earum pariatur fuga
-              fugit dolor recusandae autem veritatis ipsam repellat sit aliquid
-              quaerat optio ullam eligendi iusto.
-            </p>
-          </li>
-          <li className="rounded-lg border p-6 border-gray-500">
-            <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
-            <p className="text-xl font-medium text-black dark:text-white font-serif">
-              Why Does It Matter?
-            </p>
-            <p className="text-sm leading-6 text-gray-700 mt-1.5 line-clamp-3">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Mollitia, consequuntur neque illo placeat earum pariatur fuga
-              fugit dolor recusandae autem veritatis ipsam repellat sit aliquid
-              quaerat optio ullam eligendi iusto.
-            </p>
-          </li>
-          <li className="rounded-lg border p-6 border-gray-500">
-            <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
-            <p className="text-xl font-medium text-black dark:text-white font-serif">
-              Where Will It Be Located?
-            </p>
-            <p className="text-sm leading-6 text-gray-700 mt-1.5 line-clamp-3">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Mollitia, consequuntur neque illo placeat earum pariatur fuga
-              fugit dolor recusandae autem veritatis ipsam repellat sit aliquid
-              quaerat optio ullam eligendi iusto.
-            </p>
-          </li>
-          <li className="rounded-lg border p-6 border-gray-500">
-            <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
-            <p className="text-xl font-medium text-black dark:text-white font-serif">
-              Brainstorming Dump
-            </p>
-            <p className="text-sm leading-6 text-gray-700 mt-1.5 line-clamp-3">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Mollitia, consequuntur neque illo placeat earum pariatur fuga
-              fugit dolor recusandae autem veritatis ipsam repellat sit aliquid
-              quaerat optio ullam eligendi iusto.
-            </p>
-          </li>
-          <li className="rounded-lg border p-6 border-gray-500">
-            <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
-            <p className="text-xl font-medium text-black dark:text-white font-serif">
-              Commitment & Completion
-            </p>
-            <p className="text-sm leading-6 text-gray-700 mt-1.5 line-clamp-3">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Mollitia, consequuntur neque illo placeat earum pariatur fuga
-              fugit dolor recusandae autem veritatis ipsam repellat sit aliquid
-              quaerat optio ullam eligendi iusto.
-            </p>
-          </li>
-          <li className="rounded-lg border p-6 border-gray-500">
-            <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
-            <p className="text-xl font-medium text-black dark:text-white font-serif">
-              Reflection & Lessons Learned
-            </p>
-            <p className="text-sm leading-6 text-gray-700 mt-1.5 line-clamp-3">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Mollitia, consequuntur neque illo placeat earum pariatur fuga
-              fugit dolor recusandae autem veritatis ipsam repellat sit aliquid
-              quaerat optio ullam eligendi iusto.
-            </p>
-          </li>
+          {sections.map((section) => {
+            return (
+              <li className="rounded-lg border p-6 border-gray-400">
+                <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
+                <p className="text-xl font-medium text-black dark:text-white font-serif">
+                  {section.title}
+                </p>
+                <p className="text-sm leading-6 text-gray-700 mt-1.5 line-clamp-3">
+                  {section.description}
+                </p>
+              </li>
+            );
+          })}
         </ul>
-
-        <p className="col-span-3 mt-6 text-gray-600 text-sm italic text-muted-foreground text-center">
+        <p className="col-span-3 mt-6 text-gray-600 text-sm italic text-center">
           Remember: This is for your eyes only.
         </p>
       </section>
