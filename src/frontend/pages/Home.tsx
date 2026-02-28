@@ -43,9 +43,9 @@ export default function Home() {
           <img
             src="/media/scott-graham-5fNmWej4tAA-unsplash.jpg"
             alt=""
-            className="w-full aspect-video rounded-xl bg-gray-6 mt-12"
+            className="w-full aspect-video rounded-xl  mt-12"
           ></img>
-          <p className="text-sm capitalize">
+          <p className="text-sm capitalize text-gray-600">
             Thanks&nbsp;
             <a
               href="https://unsplash.com/@amstram"
@@ -69,7 +69,7 @@ export default function Home() {
           </p>
         </div>
         <ul className="cols-span-2 lg:col-span-3 sm:grid grid-cols-subgrid  gap-8">
-          <li className="rounded-lg border p-6 border-gray-4">
+          <li className="rounded-lg border p-6 border-gray-400">
             <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
             <p className="text-xl font-serif font-medium mb-2">Cover Page</p>
             <p className="line-clamp-2 text-sm opacity-70">
@@ -79,7 +79,7 @@ export default function Home() {
               quaerat optio ullam eligendi iusto.
             </p>
           </li>
-          <li className="rounded-lg border p-6 border-gray-4">
+          <li className="rounded-lg border p-6 border-gray-500">
             <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
             <p className="text-xl font-serif font-medium mb-2">
               Why Does It Matter?
@@ -91,7 +91,7 @@ export default function Home() {
               quaerat optio ullam eligendi iusto.
             </p>
           </li>
-          <li className="rounded-lg border p-6 border-gray-4">
+          <li className="rounded-lg border p-6 border-gray-500">
             <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
             <p className="text-xl font-serif font-medium mb-2">
               Where Will It Be Located?
@@ -103,7 +103,7 @@ export default function Home() {
               quaerat optio ullam eligendi iusto.
             </p>
           </li>
-          <li className="rounded-lg border p-6 border-gray-4">
+          <li className="rounded-lg border p-6 border-gray-500">
             <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
             <p className="text-xl font-serif font-medium mb-2">
               Brainstorming Dump
@@ -115,7 +115,7 @@ export default function Home() {
               quaerat optio ullam eligendi iusto.
             </p>
           </li>
-          <li className="rounded-lg border p-6 border-gray-4">
+          <li className="rounded-lg border p-6 border-gray-500">
             <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
             <p className="text-xl font-serif font-medium mb-2">
               Commitment & Completion
@@ -127,7 +127,7 @@ export default function Home() {
               quaerat optio ullam eligendi iusto.
             </p>
           </li>
-          <li className="rounded-lg border p-6 border-gray-4">
+          <li className="rounded-lg border p-6 border-gray-500">
             <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
             <p className="text-xl font-serif font-medium mb-2">
               Reflection & Lessons Learned
@@ -141,7 +141,7 @@ export default function Home() {
           </li>
         </ul>
 
-        <p className="col-span-3 mt-6 text-gray-6 text-sm italic text-muted-foreground text-center">
+        <p className="col-span-3 mt-6 text-gray-600 text-sm italic text-muted-foreground text-center">
           Remember: This is for your eyes only.
         </p>
       </section>
@@ -158,7 +158,7 @@ export default function Home() {
             </p>
           </div>
           <div className="grid gap-6">
-            <div className="p-8 rounded-2xl bg-black  text-gray-1">
+            <div className="p-8 rounded-2xl bg-black  text-gray-100">
               <div className="flex items-center gap-3 mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -231,7 +231,7 @@ export default function Home() {
           </p>
         </div>
         <div className="grid grid-cols-2 gap-12 mt-18">
-          <div className="col-span-2 lg:col-span-1 rounded-lg bg-gray-8 w-full p-8">
+          <div className="col-span-2 lg:col-span-1 rounded-lg bg-gray-800 w-full p-8">
             <p className="font-serif text-white text-xl mb-2">
               Self-Governed Pace
             </p>
@@ -240,7 +240,7 @@ export default function Home() {
               session starts and ends.
             </p>
           </div>
-          <div className="col-span-2 lg:col-span-1 rounded-lg bg-gray-8 w-full p-8">
+          <div className="col-span-2 lg:col-span-1 rounded-lg bg-gray-800 w-full p-8">
             <p className="font-serif text-white text-xl mb-2">
               Guided Frameworks
             </p>
@@ -249,14 +249,14 @@ export default function Home() {
               bring the 'Meat' (Your Vision).
             </p>
           </div>
-          <div className="col-span-2 lg:col-span-1 rounded-lg bg-gray-8 w-full p-8">
+          <div className="col-span-2 lg:col-span-1 rounded-lg bg-gray-800 w-full p-8">
             <p className="font-serif text-white text-xl mb-2">Total Privacy</p>
             <p className="leading-7 text-gray-5">
               Local storage by default. No cloud sync unless you choose Your
               ideas stay between you and the page.
             </p>
           </div>
-          <div className="col-span-2 lg:col-span-1 rounded-lg bg-gray-8 w-full p-8">
+          <div className="col-span-2 lg:col-span-1 rounded-lg bg-gray-800 w-full p-8">
             <p className="font-serif text-white text-xl mb-2">
               Open Format Architecture
             </p>
@@ -274,7 +274,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="flex items-center justify-center bg-gray-1 w-full min-h-96 rounded-2xl">
+      <section className="flex items-center justify-center bg-gray-100 border-2 border-gray-300 w-full min-h-96 rounded-2xl">
         <div className="p-6 lg:px-24 grid items-center max-w-6xl grid-cols-2 gap-8">
           <div className="col-span-2 lg:col-span-1 space-y-3">
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0 capitalize">

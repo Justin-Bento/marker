@@ -9,11 +9,11 @@ export default function Support() {
     <>
       <section className="max-w-[80ch] mx-auto text-center space-y-6">
         <h1 className="text-6xl font-serif">Support & Documentation.</h1>
-        <p className="text-2xl font-serif italic text-gray-8">
+        <p className="text-2xl font-serif italic text-gray-800">
           How to use the WordDock system to master any skill.
         </p>
       </section>
-      <section className="max-w-[80ch] mx-auto bg-gray-3/30 p-12 rounded-2xl text-pretty [&>p]:mt-3">
+      <section className="max-w-[80ch] mx-auto bg-gray-300/30 p-12 rounded-2xl text-pretty [&>p]:mt-3">
         <div className="">
           <span className="flex flex-col-reverse">
             <h2 className="text-3xl font-serif capitalize">
@@ -29,7 +29,7 @@ export default function Support() {
             "Commitment & Completion" section to master touch typing.
           </p>
         </div>
-        <div className="overflow-hidden rounded-r-lg border-l-2 bg-gray-2 dark:bg-gray-800/50 dark:shadow-none dark:outline dark:-outline-offset-1 dark:outline-white/10 mt-6">
+        <div className="overflow-hidden rounded-r-lg border-l-2 bg-gray-200 dark:bg-gray-80000/50 dark:shadow-none dark:outline dark:-outline-offset-1 dark:outline-white/10 mt-6">
           <div className="px-4 py-5 sm:p-6">
             <h3 className="text-xl font-serif">The Brainstorming Dump</h3>
             <p className="text-sm">What do I need to start?</p>
@@ -46,7 +46,7 @@ export default function Support() {
             </ul>
           </div>
         </div>
-        <div className="overflow-hidden rounded-r-lg border-l-2 bg-gray-2 dark:bg-gray-800/50 dark:shadow-none dark:outline dark:-outline-offset-1 dark:outline-white/10 mt-6">
+        <div className="overflow-hidden rounded-r-lg border-l-2 bg-gray-200 dark:bg-gray-80000/50 dark:shadow-none dark:outline dark:-outline-offset-1 dark:outline-white/10 mt-6">
           <div className="px-4 py-5 sm:p-6">
             <h3 className="text-xl font-serif">Commitment & Completion</h3>
             <p className="text-sm">Defining the win state..</p>
@@ -57,7 +57,7 @@ export default function Support() {
             </ul>
           </div>
         </div>
-        <div className="overflow-hidden rounded-r-lg border-l-2 bg-gray-2 dark:bg-gray-800/50 dark:shadow-none dark:outline dark:-outline-offset-1 dark:outline-white/10 mt-6">
+        <div className="overflow-hidden rounded-r-lg border-l-2 bg-gray-200 dark:bg-gray-80000/50 dark:shadow-none dark:outline dark:-outline-offset-1 dark:outline-white/10 mt-6">
           <div className="px-4 py-5 sm:p-6">
             <h3 className="text-xl font-serif">Reflection & Lessons</h3>
             <p className="text-sm">What did I learn mid-journey?</p>
@@ -83,7 +83,7 @@ export default function Support() {
                 <h3 className="text-lg font-serif capitalize font-medium">
                   {question.title}
                 </h3>
-                <p className="text-sm text-pretty tracking-wide mt-1.5 text-gray-8">
+                <p className="text-sm text-pretty tracking-wide mt-1.5 text-gray-800">
                   {question.description}
                 </p>
               </div>

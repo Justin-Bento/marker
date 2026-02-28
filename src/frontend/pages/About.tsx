@@ -11,11 +11,11 @@ export default function About() {
     <>
       <section className="text-balance space-y-6 leading-7 font-serif text-center">
         <h1 className="text-6xl tracking-wide  text-balance">The Vision</h1>
-        <p className="text-2xl italic text-gray-8">
+        <p className="text-2xl italic text-gray-800">
           "Software should serve the user, not the other way around."
         </p>
       </section>
-      <section className="max-w-[80ch] mx-auto space-y-6 [&>p]:leading-8 [&>p]:text-gray-8">
+      <section className="max-w-[80ch] mx-auto space-y-6 [&>p]:leading-8 [&>p]:text-gray-800">
         <p>
           Marker started with a simple observation: most productivity tools are
           more interested in keeping you on their platform than helping you
@@ -42,7 +42,7 @@ export default function About() {
             return (
               <div className="overflow-hidden rounded-lg bg-primary-200/10 border  border-primary-200 dark:bg-gray-800/50 dark:shadow-none dark:outline dark:-outline-offset-1 dark:outline-white/10">
                 <div className="px-4 py-5 sm:p-6">
-                  <span className="w-12 h-12 rounded-full  bg-orange-600/5 text-primary-900  flex items-center justify-center mb-6">
+                  <span className="w-12 h-12 rounded-full  bg-primary-600/5 text-primary-900  flex items-center justify-center mb-6">
                     {value.icon}
                   </span>
                   <h3 className="text-xl font-serif mb-3">{value.title}</h3>
@@ -55,10 +55,10 @@ export default function About() {
       </section>
       <section className="flex flex-col items-center justify-center gap-y-6 text-center">
         <HiOutlineHeart className="w-8 h-8 text-primary-600 fill-primary-600/20" />
-        <h2 className="text-3xl font-serif text-gray-9 capitalize">
+        <h2 className="text-3xl font-serif text-gray-900 capitalize">
           Ready to start?
         </h2>
-        <p className="text-gray-8 my-3 capitalize max-w-xl mx-auto text-lg">
+        <p className="text-gray-800 my-3 capitalize max-w-xl mx-auto text-lg">
           No sign-ups. No credit cards. Just download the template and start
           planning your next big idea.
         </p>
