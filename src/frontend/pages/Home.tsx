@@ -71,8 +71,10 @@ export default function Home() {
         <ul className="cols-span-2 lg:col-span-3 sm:grid grid-cols-subgrid  gap-8">
           <li className="rounded-lg border p-6 border-gray-400">
             <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
-            <p className="text-xl font-serif font-medium mb-2">Cover Page</p>
-            <p className="line-clamp-2 text-sm opacity-70">
+            <p className="text-xl font-medium text-black dark:text-white font-serif">
+              Cover Page
+            </p>
+            <p className="text-sm leading-6 text-gray-700 mt-1.5 line-clamp-3">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Mollitia, consequuntur neque illo placeat earum pariatur fuga
               fugit dolor recusandae autem veritatis ipsam repellat sit aliquid
@@ -81,10 +83,10 @@ export default function Home() {
           </li>
           <li className="rounded-lg border p-6 border-gray-500">
             <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
-            <p className="text-xl font-serif font-medium mb-2">
+            <p className="text-xl font-medium text-black dark:text-white font-serif">
               Why Does It Matter?
             </p>
-            <p className="line-clamp-2 text-sm opacity-70">
+            <p className="text-sm leading-6 text-gray-700 mt-1.5 line-clamp-3">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Mollitia, consequuntur neque illo placeat earum pariatur fuga
               fugit dolor recusandae autem veritatis ipsam repellat sit aliquid
@@ -93,10 +95,10 @@ export default function Home() {
           </li>
           <li className="rounded-lg border p-6 border-gray-500">
             <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
-            <p className="text-xl font-serif font-medium mb-2">
+            <p className="text-xl font-medium text-black dark:text-white font-serif">
               Where Will It Be Located?
             </p>
-            <p className="line-clamp-2 text-sm opacity-70">
+            <p className="text-sm leading-6 text-gray-700 mt-1.5 line-clamp-3">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Mollitia, consequuntur neque illo placeat earum pariatur fuga
               fugit dolor recusandae autem veritatis ipsam repellat sit aliquid
@@ -105,10 +107,10 @@ export default function Home() {
           </li>
           <li className="rounded-lg border p-6 border-gray-500">
             <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
-            <p className="text-xl font-serif font-medium mb-2">
+            <p className="text-xl font-medium text-black dark:text-white font-serif">
               Brainstorming Dump
             </p>
-            <p className="line-clamp-2 text-sm opacity-70">
+            <p className="text-sm leading-6 text-gray-700 mt-1.5 line-clamp-3">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Mollitia, consequuntur neque illo placeat earum pariatur fuga
               fugit dolor recusandae autem veritatis ipsam repellat sit aliquid
@@ -117,10 +119,10 @@ export default function Home() {
           </li>
           <li className="rounded-lg border p-6 border-gray-500">
             <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
-            <p className="text-xl font-serif font-medium mb-2">
+            <p className="text-xl font-medium text-black dark:text-white font-serif">
               Commitment & Completion
             </p>
-            <p className="line-clamp-2 text-sm opacity-70">
+            <p className="text-sm leading-6 text-gray-700 mt-1.5 line-clamp-3">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Mollitia, consequuntur neque illo placeat earum pariatur fuga
               fugit dolor recusandae autem veritatis ipsam repellat sit aliquid
@@ -129,10 +131,10 @@ export default function Home() {
           </li>
           <li className="rounded-lg border p-6 border-gray-500">
             <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
-            <p className="text-xl font-serif font-medium mb-2">
+            <p className="text-xl font-medium text-black dark:text-white font-serif">
               Reflection & Lessons Learned
             </p>
-            <p className="line-clamp-2 text-sm opacity-70">
+            <p className="text-sm leading-6 text-gray-700 mt-1.5 line-clamp-3">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Mollitia, consequuntur neque illo placeat earum pariatur fuga
               fugit dolor recusandae autem veritatis ipsam repellat sit aliquid
