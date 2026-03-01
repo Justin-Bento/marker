@@ -60,10 +60,10 @@ export default function Home() {
       </section>
       <section className="grid lg:grid-cols-3 gap-6">
         <div className="col-span-3">
-          <h2 className="font-serif text-[2rem]/10 tracking-tight text-pretty text-olive-950 sm:text-5xl/14 dark:text-white">
+          <h2 className="font-serif text-[2rem]/10 tracking-tight text-pretty text-olive-950 sm:text-5xl/14 dark:text-gray-100">
             A Document That Works With You!
           </h2>
-          <p className="mt-3 mb-6 text-xl/9 max-w-prose text-balance text-gray-700">
+          <p className="mt-3 mb-6 text-xl/9 max-w-prose text-balance text-gray-700 dark:text-gray-500">
             Traditional project trackers assume you already have all the
             details. This one doesn&rsquo;t. It gives you room to think, write,
             and shape your project as it develops.
@@ -72,12 +72,12 @@ export default function Home() {
         <ul className="cols-span-2 lg:col-span-3 sm:grid grid-cols-subgrid  gap-8">
           {sections.map((section) => {
             return (
-              <li className="rounded-lg border p-6 border-gray-400">
+              <li className="rounded-lg border p-6 border-gray-600 dark:bg-gray-900">
                 <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
                 <p className="text-xl font-medium text-black dark:text-white font-serif">
                   {section.title}
                 </p>
-                <p className="text-sm leading-6 text-gray-700 mt-1.5 line-clamp-3">
+                <p className="text-sm leading-6 text-gray-700  mt-1.5 line-clamp-3 dark:text-gray-600">
                   {section.description}
                 </p>
               </li>
@@ -88,13 +88,13 @@ export default function Home() {
           Remember: This is for your eyes only.
         </p>
       </section>
-      <section className="bg-primary-100 rounded-3xl p-12 md:p-20">
+      <section className="bg-primary-100 dark:bg-primary-500/40 rounded-3xl p-12 md:p-20">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <h3 className="font-serif text-[2rem]/10 tracking-tight text-pretty text-olive-950 sm:text-4xl/14 dark:text-white">
+            <h3 className="font-serif text-[2rem]/10 tracking-tight text-pretty text-olive-950 sm:text-4xl/14 dark:text-gray-100">
               Don't have Microsoft Office?
             </h3>
-            <p className="text-lg text-gray-8 leading-relaxed mb-8">
+            <p className="text-lg text-gray-8 leading-relaxed mb-8 dark:text-gray-100/70">
               No problem! It's just a digital document, and you can open it with
               any word processor. Plus, it's completely free for you to use and
               share.
@@ -155,7 +155,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="p-16 lg:p-24 min-h-96 grid items-center text-white bg-black rounded-3xl">
+      <section className="p-16 lg:p-24 min-h-96 grid items-center text-white bg-black dark:bg-gray-800 rounded-3xl">
         <div className="flex flex-col items-start lg:items-center gap-4">
           <span className="flex flex-col-reverse items-center gap-4">
             <h4 className="font-serif text-[2rem]/10 tracking-tight text-pretty text-olive-950 sm:text-5xl/14 dark:text-white capitalize">
@@ -174,7 +174,7 @@ export default function Home() {
           </p>
         </div>
         <div className="grid grid-cols-2 gap-12 mt-18">
-          <div className="col-span-2 lg:col-span-1 rounded-lg bg-gray-800 w-full p-8">
+          <div className="col-span-2 lg:col-span-1 rounded-lg bg-gray-800 w-full p-8 dark:bg-gray-700">
             <p className="font-serif text-white text-xl mb-2">
               Self-Governed Pace
             </p>
@@ -183,7 +183,7 @@ export default function Home() {
               session starts and ends.
             </p>
           </div>
-          <div className="col-span-2 lg:col-span-1 rounded-lg bg-gray-800 w-full p-8">
+          <div className="col-span-2 lg:col-span-1 rounded-lg bg-gray-800 w-full p-8 dark:bg-gray-700">
             <p className="font-serif text-white text-xl mb-2">
               Guided Frameworks
             </p>
@@ -192,14 +192,14 @@ export default function Home() {
               bring the 'Meat' (Your Vision).
             </p>
           </div>
-          <div className="col-span-2 lg:col-span-1 rounded-lg bg-gray-800 w-full p-8">
+          <div className="col-span-2 lg:col-span-1 rounded-lg bg-gray-800 w-full p-8 dark:bg-gray-700">
             <p className="font-serif text-white text-xl mb-2">Total Privacy</p>
             <p className="leading-7 text-gray-5">
               Local storage by default. No cloud sync unless you choose Your
               ideas stay between you and the page.
             </p>
           </div>
-          <div className="col-span-2 lg:col-span-1 rounded-lg bg-gray-800 w-full p-8">
+          <div className="col-span-2 lg:col-span-1 rounded-lg bg-gray-800 w-full p-8 dark:bg-gray-700">
             <p className="font-serif text-white text-xl mb-2">
               Open Format Architecture
             </p>
@@ -217,13 +217,13 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="flex items-center justify-center bg-gray-100 border-2 border-gray-300 w-full min-h-96 rounded-2xl">
+      <section className="flex items-center justify-center bg-gray-100 dark:bg-gray-800 dark:border-gray-700 border-2 border-gray-300 w-full min-h-96 rounded-2xl">
         <div className="p-6 lg:px-24 grid items-center max-w-6xl grid-cols-2 gap-8">
           <div className="col-span-2 lg:col-span-1 space-y-3">
             <h2 className="font-serif text-[2rem]/10 tracking-tight text-pretty text-olive-950 sm:text-4xl/8 dark:text-white capitalize">
               Build your next project!
             </h2>
-            <p>
+            <p className="dark:text-gray-100 mb-6">
               Experience the beauty of building a copmlex project from scratch
               with something as simple document and your ideas.
             </p>

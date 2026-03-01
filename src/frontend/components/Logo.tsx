@@ -4,7 +4,7 @@ export default function Logo() {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 81.21 25.29"
-        className="h-8 w-auto m-0 p-0 text-gray-900"
+        className="h-8 w-auto m-0 p-0 text-gray-900 dark:text-gray-100"
       >
         <g fill="currentColor">
           <g>
