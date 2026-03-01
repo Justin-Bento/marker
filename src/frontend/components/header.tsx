@@ -1,3 +1,5 @@
+import Logo from "./Logo";
+
 export default function Header() {
   const linksToWebpage = ["home", "about", "support", "contact"];
   return (
@@ -5,7 +7,7 @@ export default function Header() {
       <div className="container mx-auto max-w-6xl py-8 grid grid-cols-2 gap-4 items-center">
         <div className="col-span-2 lg:col-span-1 flex items-center justify-between">
           <a href="/">
-            <img src="/Marker_RGB_Black.svg" className="w-32 m-0 p-0" />
+            <Logo />
           </a>
           <p className="inline-block lg:hidden">menu</p>
         </div>
