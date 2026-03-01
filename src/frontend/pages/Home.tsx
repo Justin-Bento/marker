@@ -42,7 +42,7 @@ export default function Home() {
         </a>
         <div className="flex flex-col items-center gap-8">
           <img
-            src="/media/scott-graham-5fNmWej4tAA-unsplash.jpg"
+            src="/media/paper-mockup.webp"
             alt=""
             className="w-full aspect-video rounded-xl  mt-12"
           ></img>
@@ -224,7 +224,7 @@ export default function Home() {
               Build your next project!
             </h2>
             <p className="dark:text-gray-100 mb-6">
-              Experience the beauty of building a copmlex project from scratch
+              Experience the beauty of building a complex project from scratch
               with something as simple document and your ideas.
             </p>
             <a
@@ -237,7 +237,7 @@ export default function Home() {
           </div>
           <div className="col-span-2 lg:col-span-1">
             <img
-              src="/image-placeholder.webp"
+              src="/media/scott-graham-5fNmWej4tAA-unsplash.jpg"
               alt=""
               className="rounded-xl aspect-video"
             />
