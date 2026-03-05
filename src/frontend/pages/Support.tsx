@@ -15,7 +15,7 @@ export default function Support() {
           How to use the WordDock system to master any skill.
         </p>
       </section>
-      <section className="max-w-4xl mx-auto rounded-xl bg-gray-800/90 p-4 lg:p-12">
+      <section className="max-w-4xl mx-auto rounded-xl bg-gray-400/90 dark:bg-gray-800/90 p-4 lg:p-12 pt-12">
         <div className="">
           <span className="flex flex-col-reverse">
             <h2 className="text-3xl font-serif capitalize dark:text-gray-100">
@@ -31,7 +31,7 @@ export default function Support() {
             "Commitment & Completion" section to master touch typing.
           </p>
         </div>
-        <div className="overflow-hidden rounded-r-lg border-l-2 bg-gray-200 dark:bg-gray-700 dark:shadow-none dark:outline dark:-outline-offset-1 dark:outline-white/10 mt-6  *:text-gray-100">
+        <div className="overflow-hidden rounded-r-lg border-l-2 bg-gray-200 dark:bg-gray-700 dark:shadow-none dark:outline dark:-outline-offset-1 dark:outline-white/10 mt-6  dark:*:text-gray-100">
           <div className="px-4 py-5 sm:p-6">
             <h3 className="text-xl font-serif">The Brainstorming Dump</h3>
             <p className="text-sm">What do I need to start?</p>
@@ -48,10 +48,9 @@ export default function Support() {
             </ul>
           </div>
         </div>
-        <div className="overflow-hidden rounded-r-lg border-l-2 bg-gray-200 dark:bg-gray-700 dark:shadow-none dark:outline dark:-outline-offset-1 dark:outline-white/10 mt-6  *:text-gray-100">
+        <div className="overflow-hidden rounded-r-lg border-l-2 bg-gray-200 dark:bg-gray-700 dark:shadow-none dark:outline dark:-outline-offset-1 dark:outline-white/10 mt-6  dark:*:text-gray-100">
           <div className="px-4 py-5 sm:p-6">
             <h3 className="text-xl font-serif">Commitment & Completion</h3>
-            <p className="text-sm">Defining the win state..</p>
             <ul className="list-disc list-inside ml-3 space-y-4 lg:ml-6 mt-3">
               <li>GOAL: 60 Words Per Minute with 98% Accuracy.</li>
               <li>DEADLINE: 30 Days from today.</li>
@@ -59,11 +58,10 @@ export default function Support() {
             </ul>
           </div>
         </div>
-        <div className="overflow-hidden rounded-r-lg border-l-2 bg-gray-200 dark:shadow-none dark:outline dark:-outline-offset-1 dark:outline-white/10 mt-6 dark:bg-gray-700 *:text-gray-100">
+        <div className="overflow-hidden rounded-r-lg border-l-2 bg-gray-200 dark:shadow-none dark:outline dark:-outline-offset-1 dark:outline-white/10 mt-6 dark:bg-gray-700 dark:*:text-gray-100">
           <div className="px-4 py-5 sm:p-6">
             <h3 className="text-xl font-serif">Reflection & Lessons</h3>
-            <p className="text-sm">What did I learn mid-journey?</p>
-            <p className="mt-6">
+            <p className="mt-3  text-base/7">
               "Day 12: I realized my posture was causing wrist fatigue. I've
               added a note to the 'Where Will It Be Located?' section of my
               WordDock to adjust my chair height."
