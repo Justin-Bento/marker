@@ -15,7 +15,7 @@ export default function Support() {
           How to use the WordDock system to master any skill.
         </p>
       </section>
-      <section className="max-w-4xl mx-auto rounded-xl bg-gray-800/90 p-12">
+      <section className="max-w-4xl mx-auto rounded-xl bg-gray-800/90 p-4 lg:p-12">
         <div className="">
           <span className="flex flex-col-reverse">
             <h2 className="text-3xl font-serif capitalize dark:text-gray-100">
@@ -35,7 +35,7 @@ export default function Support() {
           <div className="px-4 py-5 sm:p-6">
             <h3 className="text-xl font-serif">The Brainstorming Dump</h3>
             <p className="text-sm">What do I need to start?</p>
-            <ul className="list-disc list-inside ml-6 mt-3">
+            <ul className="list-disc list-inside ml-3 space-y-4 lg:ml-6 mt-3">
               <li className="">
                 Find a free online course (Keybr or TypingClub).
               </li>
@@ -52,7 +52,7 @@ export default function Support() {
           <div className="px-4 py-5 sm:p-6">
             <h3 className="text-xl font-serif">Commitment & Completion</h3>
             <p className="text-sm">Defining the win state..</p>
-            <ul className="list-disc list-inside ml-6 mt-3">
+            <ul className="list-disc list-inside ml-3 space-y-4 lg:ml-6 mt-3">
               <li>GOAL: 60 Words Per Minute with 98% Accuracy.</li>
               <li>DEADLINE: 30 Days from today.</li>
               <li>REWARD: A new mechanical keyboard for the office.</li>

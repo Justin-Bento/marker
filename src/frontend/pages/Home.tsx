@@ -58,8 +58,8 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section className="grid lg:grid-cols-3 gap-6">
-        <div className="col-span-3">
+      <section className="">
+        <div className="">
           <h2 className="font-serif text-[2rem]/10 tracking-tight text-pretty text-olive-950 sm:text-5xl/14 dark:text-gray-100">
             A Document That Works With You!
           </h2>
@@ -69,10 +69,10 @@ export default function Home() {
             and shape your project as it develops.
           </p>
         </div>
-        <ul className="cols-span-2 lg:col-span-3 sm:grid grid-cols-subgrid  gap-8">
+        <ul className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {sections.map((section) => {
             return (
-              <li className="rounded-lg border p-6 border-gray-600 dark:bg-gray-900">
+              <li className="w-full rounded-lg border p-6 border-gray-600 dark:bg-gray-900">
                 <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
                 <p className="text-xl font-medium text-black dark:text-white font-serif">
                   {section.title}
@@ -102,7 +102,7 @@ export default function Home() {
           </div>
           <div className="grid gap-6">
             <div className="p-8 rounded-2xl bg-black  text-gray-100">
-              <div className="flex items-center gap-3 mb-4">
+              <div className="flex flex-col lg:flex-row items-start lg:items-center gap-3 mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -119,7 +119,7 @@ export default function Home() {
                 </svg>
                 <p className="text-xl font-bold tracking-tight">Local Access</p>
               </div>
-              <ul className="grid grid-cols-2 gap-2 opacity-80 font-medium list-disc list-inside">
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 opacity-80 font-medium list-disc list-inside">
                 <li>Apple Pages</li>
                 <li>LibreOffice</li>
                 <li>Obsidian</li>
@@ -127,7 +127,7 @@ export default function Home() {
               </ul>
             </div>
             <div className="p-8 rounded-2xl bg-primary-500/50 ">
-              <div className="flex items-center gap-3 mb-4">
+              <div className="flex flex-col lg:flex-row items-start lg:items-center gap-3 mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -145,7 +145,7 @@ export default function Home() {
                 </svg>
                 <p className="text-xl font-bold tracking-tight">Cloud Access</p>
               </div>
-              <ul className="grid grid-cols-2 gap-2 opacity-80 font-medium list-disc list-inside">
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 opacity-80 font-medium list-disc list-inside">
                 <li>Google Docs</li>
                 <li>Dropbox Paper</li>
                 <li>Office Online</li>
@@ -155,17 +155,17 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="p-16 lg:p-24 min-h-96 grid items-center text-white bg-black dark:bg-gray-800 rounded-3xl">
+      <section className="p-4 md:p-16 lg:p-24 min-h-96 grid items-center text-white bg-black dark:bg-gray-800 rounded-3xl">
         <div className="flex flex-col items-start lg:items-center gap-4">
           <span className="flex flex-col-reverse items-center gap-4">
-            <h4 className="font-serif text-[2rem]/10 tracking-tight text-pretty text-olive-950 sm:text-5xl/14 dark:text-white capitalize">
+            <h4 className="font-serif text-[2rem]/10 tracking-tight text-pretty text-primary-50 sm:text-5xl/14 dark:text-white capitalize">
               you are the project planner!
             </h4>
-            <span className=" inline-flex max-w-full gap-x-3 overflow-hidden rounded-md px-3.5 py-2 text-xs/6 max-sm:flex-col sm:items-center sm:rounded-xl sm:px-5 sm:py-0.5 bg-primary-400/50 text-primary-50 text-pretty sm:truncate">
+            <span className="inline-flex max-w-full gap-x-3 overflow-hidden rounded-md px-3.5 py-2 text-xs/6 max-sm:flex-col sm:items-center sm:rounded-xl sm:px-5 sm:py-0.5 bg-primary-400/50 text-primary-50 text-pretty sm:truncate">
               Take Control
             </span>
           </span>
-          <p className="text-xl text-gray-4 lg:text-center leading-relaxed lg:max-w-[80ch]">
+          <p className="text-base/7 lg:text-xl text-gray-4 lg:text-center leading-relaxed lg:max-w-[80ch]">
             At its core, this is a simple Word document. The structure is there
             to support you, but you are the planner who brings the project to
             life. I built this website to show how even one small idea can grow

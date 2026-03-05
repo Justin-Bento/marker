@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <>
       <article className="grid md:grid-cols-2 gap-10 mx-auto">
-        <div className="col-span-2">
+        <div className="col-span-1 lg:col-span-2">
           <h2 className="font-serif text-5xl/12 tracking-tight text-balance sm:text-[5rem]/20 dark:text-gray-100">
             Get in Touch
           </h2>
