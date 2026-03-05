@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="dark:*:text-white">
-      <div className="container mx-auto max-w-6xl p-6 text-white flex items-center text-sm">
+      <div className="wrapper p-6 text-white flex items-center text-sm">
         <p>
           Built by{" "}
           <a href="" className="underline hover:text-gray-300">
