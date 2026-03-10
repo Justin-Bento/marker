@@ -1,10 +1,11 @@
-import { useEffect } from "react";
-import ContactForm from "../components/ContactForm";
+import { useState, useEffect } from "react";
+import ContactForm, { type Inputs } from "../components/ContactForm";
 
 export default function Contact() {
   useEffect(() => {
     document.title = "Contact - Marker";
   }, []);
+  const [formData, setFormData] = useState<Inputs | null>(null);
   return (
     <>
       <article className="grid md:grid-cols-2 gap-10 mx-auto">
@@ -37,9 +38,25 @@ export default function Contact() {
             reach out if you're stuck or just want to talk shop about deep
             work."
           </blockquote>
+          {formData && (
+            <div className="mt-8 p-4 rounded-xl border border-gray-900/15 space-y-2">
+              <p>
+                <span className="font-medium">Name:</span> {formData.fullName}
+              </p>
+              <p>
+                <span className="font-medium">Email:</span> {formData.email}
+              </p>
+              <p>
+                <span className="font-medium">Subject:</span> {formData.subject}
+              </p>
+              <p>
+                <span className="font-medium">Message:</span> {formData.message}
+              </p>
+            </div>
+          )}
         </div>
         <div className="border border-gray-700 p-6 rounded-2xl">
-          <ContactForm />
+          <ContactForm onSubmit={(data) => setFormData(data)} />{" "}
         </div>
       </article>
     </>

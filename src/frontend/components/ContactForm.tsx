@@ -1,26 +1,22 @@
-import { useForm, type SubmitHandler } from "react-hook-form";
+import { useForm } from "react-hook-form";
 
-type Inputs = {
+export type Inputs = {
   fullName: string;
   email: string;
   subject: string;
   message: string;
 };
 
-export default function ContactForm() {
+type Props = {
+  onSubmit: (data: Inputs) => void;
+};
+
+export default function ContactForm({ onSubmit }: Props) {
   const {
     register,
     handleSubmit,
-    watch,
     formState: { errors },
   } = useForm<Inputs>();
-
-  const onSubmit: SubmitHandler<Inputs> = (data) => {
-    console.log(data);
-    // Here you'd typically send the data to an API
-  };
-
-  console.log(watch("fullName")); // optional, but now it's just the name field
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
@@ -47,7 +43,6 @@ export default function ContactForm() {
           )}
         </div>
       </div>
-
       {/* Email */}
       <div>
         <label
@@ -75,7 +70,6 @@ export default function ContactForm() {
           )}
         </div>
       </div>
-
       {/* Subject */}
       <div>
         <label
@@ -99,7 +93,6 @@ export default function ContactForm() {
           )}
         </div>
       </div>
-
       {/* Message */}
       <div>
         <label
@@ -123,7 +116,6 @@ export default function ContactForm() {
           )}
         </div>
       </div>
-
       <button
         type="submit"
         className="inline-flex shrink-0 items-center justify-center gap-3 rounded-full text-sm/7 font-medium bg-primary-950 text-white hover:bg-primary-800 dark:bg-primary-300 dark:text-primary-950 dark:hover:bg-primary-200 px-4 py-1.5"
