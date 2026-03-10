@@ -16,9 +16,9 @@ export default function Header() {
             aria-controls="primary-nav"
             aria-label={navOpen ? "Close navigation" : "Open navigation"}
             onClick={() => setNavOpen(!navOpen)}
-            className="inline-flex items-center font-medium rounded-lg text-gray-700 hover:bg-gray-100 dark:text-gray-50 h-8 p-4 dark:hover:bg-brand-primary-50/10 lg:hidden"
+            className="inline-flex items-center font-medium rounded-lg text-gray-700 hover:bg-gray-100 dark:text-gray-50 h-8 p-4 dark:hover:bg-brand-primary-50/10 lg:hidden text-3xl"
           >
-            {navOpen ? "close" : "menu"}
+            {navOpen ? "x" : "☰"}
           </button>
         </div>
         <nav
