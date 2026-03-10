@@ -1,10 +1,14 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { faq } from "../../data";
 
 export default function Support() {
   useEffect(() => {
     document.title = "Support - Marker";
   }, []);
+  const [accordion, setAccordion] = useState<number | null>(null);
+  function toggleAccordion(id: number) {
+    setAccordion(accordion === id ? null : id);
+  }
   return (
     <>
       <section className="max-w-xl mx-auto text-center space-y-6">
@@ -12,7 +16,7 @@ export default function Support() {
           Support & Documentation.
         </h1>
         <p className="text-xl/9 text-gray-700 dark:text-gray-500 capitalize font-serif">
-          How to use the WordDock system to master any skill.
+          How to use Marker system to master any skill.
         </p>
       </section>
       <section className="max-w-4xl mx-auto rounded-xl bg-gray-400/90 dark:bg-gray-800/90 p-4 lg:p-12 pt-12">
@@ -74,18 +78,26 @@ export default function Support() {
           Frequently Asked Questions
         </h2>
         {faq.map((question) => {
+          // Check if THIS specific question is the one that's open
+          const isAccordion = accordion === question.id;
           return (
-            <div
-              key={question.id}
-              className="border border-black/10 dark:border-gray-100/30 mt-6 rounded-xl"
-            >
+            <div key={question.id} className="relative mt-6 ">
+              <button
+                onClick={() => toggleAccordion(question.id)}
+                className="absolute inset-0 w-full hover:cursor-pointer hover:bg-gray-900/5 transition-colors border border-gray-900/15  focus:border-orange-800 rounded-xl"
+              />
               <div className="px-4 py-5 sm:p-6">
-                <h3 className="text-lg font-serif capitalize font-medium dark:text-gray-100">
-                  {question.title}
-                </h3>
-                <p className="text-sm text-pretty tracking-wide mt-1.5 text-gray-800 dark:text-gray-300">
-                  {question.description}
-                </p>
+                <div className="flex justify-between items-center pointer-events-none">
+                  <h3 className="text-lg font-serif capitalize font-medium dark:text-gray-100">
+                    {question.title}
+                  </h3>
+                  <span>{isAccordion ? "−" : "+"}</span>
+                </div>
+                {isAccordion && (
+                  <p className="text-sm text-pretty tracking-wide mt-1.5 text-gray-800 dark:text-gray-300">
+                    {question.description}
+                  </p>
+                )}
               </div>
             </div>
           );
