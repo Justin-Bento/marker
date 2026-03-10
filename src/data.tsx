@@ -8,18 +8,21 @@ import {
 
 export const values = [
   {
+    id: 1,
     icon: <HiOutlineDocument className="size-6" />,
     title: "Radical Simplicity",
     description:
       "No accounts, no subscriptions, no complex databases. Just a file that lives on your machine.",
   },
   {
+    id: 2,
     icon: <HiOutlineUser className="size-6" />,
     title: "True Ownership",
     description:
       "Your data shouldn't be trapped in a proprietary cloud. A .docx file is yours forever.",
   },
   {
+    id: 3,
     icon: <HiOutlineViewGrid className="size-6" />,
     title: "Focus by Design",
     description:

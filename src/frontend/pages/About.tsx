@@ -44,7 +44,10 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 my-21">
           {values.map((value) => {
             return (
-              <div className="rounded-md bg-primary-950/2.5 p-6 text-sm/7 text-primary-950 dark:bg-white/5 dark:text-white">
+              <div
+                key={value.id}
+                className="rounded-md bg-primary-950/2.5 p-6 text-sm/7 text-primary-950 dark:bg-white/5 dark:text-white"
+              >
                 <div className="px-4 py-5 sm:p-6">
                   <span className="w-12 h-12 rounded-full  bg-primary-600/5 text-primary-900 dark:bg-primary-300  flex items-center justify-center mb-6">
                     {value.icon}
