@@ -29,8 +29,8 @@ export default function Home() {
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             className="stroke-2 size-5 lucide lucide-download"
             aria-hidden="true"
           >
@@ -107,8 +107,8 @@ export default function Home() {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="stroke-2 size-6 fill-none lucide lucide-hard-drive"
                   aria-hidden="true"
                 >
@@ -136,8 +136,8 @@ export default function Home() {
                   fill="none"
                   stroke="currentColor"
                   stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="lucide lucide-cloud w-6 h-6"
                   aria-hidden="true"
                 >
