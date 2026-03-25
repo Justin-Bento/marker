@@ -13,7 +13,7 @@ export default function About() {
         <h1 className="font-serif text-5xl/12 tracking-tight text-balance sm:text-[5rem]/20 dark:text-white">
           The Vision
         </h1>
-        <p className="text-xl/9 text-gray-700 dark:text-gray-200 capitalize">
+        <p className="text-xl/9 text-black dark:text-gray-200 capitalize">
           "Software should serve the user, not the other way around."
         </p>
       </section>
@@ -29,12 +29,12 @@ export default function About() {
           keep you moving. That's why WordDock isn't an "app" in the traditional
           sense—it's a carefully crafted <strong>.docx template</strong>.
         </p>
-        <div className="overflow-hidden rounded-lg bg-primary-600/9 dark:bg-primary-600/50 border-l-2 border-primary-600">
+        <div className="overflow-hidden rounded-lg bg-brand/9 dark:bg-brand/50 border-l-2 border-brand">
           <div className="px-4 py-5 sm:p-6">
-            <p className="text-primary-600 font-serif dark:text-primary-50">
+            <p className="text-brand font-serif dark:text-brand">
               Why a Word Document?
             </p>
-            <p className="text-sm mt-1.5 leading-7 tracking-wide text-pretty dark:text-primary-50">
+            <p className="text-sm mt-1.5 leading-7 tracking-wide text-pretty dark:text-brand">
               Because it's universal. You can open it in 1995 or 2045. You can
               print it. You can email it. You can edit it offline in a cabin in
               the woods. It gives you total control over your environment.
@@ -46,16 +46,16 @@ export default function About() {
             return (
               <div
                 key={value.id}
-                className="rounded-md bg-primary-950/2.5 p-6 text-sm/7 text-primary-950 dark:bg-white/5 dark:text-white"
+                className="rounded-md bg-black/2.5 px-3 text-sm/7 text-brand dark:bg-white/5 dark:text-white"
               >
                 <div className="px-4 py-5 sm:p-6">
-                  <span className="w-12 h-12 rounded-full  bg-primary-600/5 text-primary-900 dark:bg-primary-300  flex items-center justify-center mb-6">
+                  <span className="w-12 h-12 rounded-full  bg-brand/5 text-brand dark:bg-brand  flex items-center justify-center mb-6">
                     {value.icon}
                   </span>
                   <h3 className="text-lg font-semibold font-serif mb-3">
                     {value.title}
                   </h3>
-                  <p className="text-sm/6 text-balance text-gray-700 dark:text-gray-400">
+                  <p className="text-sm/6 text-balance text-black dark:text-gray-400">
                     {value.description}
                   </p>
                 </div>
@@ -65,7 +65,7 @@ export default function About() {
         </div>
       </section>
       <section className="flex flex-col items-center justify-center gap-y-6 text-center">
-        <HiOutlineHeart className="w-8 h-8 text-primary-600 fill-primary-600/20" />
+        <HiOutlineHeart className="w-8 h-8 text-brand fill-brand/20" />
         <h2 className="text-3xl font-serif text-gray-900 dark:text-white capitalize">
           Ready to start?
         </h2>
@@ -76,7 +76,7 @@ export default function About() {
         <a
           href="https://docs.google.com/document/d/1PuBIeAT3HBt4--GWk0KAV9K6Uo6pJJnQLcDqJNUgPN0/edit?usp=sharing"
           target="_blank"
-          className="inline-flex shrink-0 items-center justify-center gap-3 rounded-full text-sm/7 font-medium bg-primary-950 text-white hover:bg-primary-800 dark:bg-primary-300 dark:text-primary-950 dark:hover:bg-primary-200 px-4 py-2"
+          className="inline-flex shrink-0 items-center justify-center gap-3 rounded-full text-sm/7 font-medium bg-brand text-white hover:bg-brand dark:bg-brand dark:text-brand dark:hover:bg-brand px-4 py-2"
         >
           <HiDownload className="w-5 h-5" /> Download Template
         </a>

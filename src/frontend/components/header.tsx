@@ -5,7 +5,7 @@ export default function Header() {
   const linksToWebpage = ["home", "about", "support", "contact"];
   const [navOpen, setNavOpen] = useState(false);
   return (
-    <header className="dark:*:text-gray-100 shadow-sm border-b border-primary-950/10">
+    <header className="dark:*:text-gray-100 shadow-sm border-b border-black/10">
       <div className="wrapper py-8 grid grid-cols-2 gap-4 items-center">
         <div className="col-span-2 lg:col-span-1 flex items-center justify-between">
           <a href="/">

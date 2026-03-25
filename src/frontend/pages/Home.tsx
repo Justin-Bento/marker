@@ -11,7 +11,7 @@ export default function Home() {
         <h1 className="font-serif font-display text-5xl/12 tracking-tight text-balance sm:text-[5rem]/20 text-gray-900 dark:text-white max-w-5xl">
           It&rsquo;s Easy to Lose Sight of Your Project&rsquo;s Vision
         </h1>
-        <p className="max-w-2xl text-lg/8 text-gray-700 dark:text-gray-400">
+        <p className="max-w-3xl text-lg/8 text-black dark:text-gray-400">
           Projects get paused. Plans change. Life interrupts. When you return,
           it&rsquo;s hard to remember your steps or your purpose&mdash;and most
           project tools don&rsquo;t make that any easier. This tracker helps you
@@ -20,7 +20,7 @@ export default function Home() {
         <a
           href="https://docs.google.com/document/d/1PuBIeAT3HBt4--GWk0KAV9K6Uo6pJJnQLcDqJNUgPN0/edit?usp=sharing"
           target="_blank"
-          className="inline-flex shrink-0 items-center justify-center gap-3 rounded-full text-sm/7 font-medium bg-primary-950 text-white hover:bg-primary-800 dark:bg-primary-300 dark:text-primary-950 dark:hover:bg-primary-200 px-4 py-2"
+          className="inline-flex shrink-0 items-center justify-center gap-3 rounded-full text-sm/7 font-medium bg-brand text-white  dark:hover:bg-brand px-4 py-2"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@ export default function Home() {
           {sections.map((section) => {
             return (
               <li className="w-full rounded-lg border p-6 border-gray-600 dark:bg-gray-900">
-                <span className="block size-12 bg-primary-100 rounded-lg mb-4"></span>
+                <span className="block size-12 bg-brand/10 rounded-lg mb-4"></span>
                 <p className="text-xl font-medium text-black dark:text-white font-serif">
                   {section.title}
                 </p>
@@ -88,7 +88,7 @@ export default function Home() {
           Remember: This is for your eyes only.
         </p>
       </section>
-      <section className="bg-primary-100 dark:bg-primary-500/40 rounded-3xl p-12 md:p-20">
+      <section className="bg-brand/10 dark:bg-brand/40 rounded-3xl p-12 md:p-20">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <h3 className="font-serif text-[2rem]/10 tracking-tight text-pretty text-olive-950 sm:text-4xl/14 dark:text-gray-100">
@@ -126,7 +126,7 @@ export default function Home() {
                 <li>Microsoft Word</li>
               </ul>
             </div>
-            <div className="p-8 rounded-2xl bg-primary-500/50 ">
+            <div className="p-8 rounded-2xl bg-brand/75 ">
               <div className="flex flex-col lg:flex-row items-start lg:items-center gap-3 mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -156,16 +156,16 @@ export default function Home() {
         </div>
       </section>
       <section className="p-4 md:p-16 lg:p-24 min-h-96 grid items-center text-white bg-black dark:bg-gray-800 rounded-3xl">
-        <div className="flex flex-col items-start lg:items-center gap-4">
-          <span className="flex flex-col-reverse items-center gap-4">
-            <h4 className="font-serif text-[2rem]/10 tracking-tight text-pretty text-primary-50 sm:text-5xl/14 dark:text-white capitalize">
+        <div className="flex flex-col items-start  gap-4">
+          <span className="flex flex-col-reverse  gap-4">
+            <h4 className="font-serif text-[2rem]/10 tracking-tight text-pretty  sm:text-5xl/14 text-white capitalize">
               you are the project planner!
             </h4>
-            <span className="inline-flex max-w-full gap-x-3 overflow-hidden rounded-md px-3.5 py-2 text-xs/6 max-sm:flex-col sm:items-center sm:rounded-xl sm:px-5 sm:py-0.5 bg-primary-400/50 text-primary-50 text-pretty sm:truncate">
+            <span className="w-fit inline-flex max-w-full gap-x-3 overflow-hidden rounded-md px-3.5 py-2 text-xs/6 max-sm:flex-col sm:rounded-xl sm:px-5 sm:py-0.5 bg-brand/15 text-brand text-pretty sm:truncate">
               Take Control
             </span>
           </span>
-          <p className="text-base/7 lg:text-xl text-gray-4 lg:text-center leading-relaxed lg:max-w-[80ch]">
+          <p className="text-base/7 lg:text-xl text-gray-4  leading-relaxed lg:max-w-[80ch]">
             At its core, this is a simple Word document. The structure is there
             to support you, but you are the planner who brings the project to
             life. I built this website to show how even one small idea can grow
@@ -208,7 +208,7 @@ export default function Home() {
               your own, or merge with other systems..
             </p>
           </div>
-          <div className="col-span-2 rounded-lg bg-orange-900/70 w-full p-8">
+          <div className="col-span-2 rounded-lg bg-brand/30 w-full p-8">
             <p className="leading-7 text-gray-1 max-w-[80ch] text-balance">
               The structure is there to support you, but you are the planner who
               brings the project to life. We provide the map; you decide where

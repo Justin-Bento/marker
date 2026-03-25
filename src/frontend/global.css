@@ -7,7 +7,8 @@
   --*--color-: initial;
 
   --color-white: #f8f9fa;
-  --color-black: #212529;
+  --color-black: #111314;
+  --color-brand: #f37420;
   /* Then define your Open Color grays */
   --color-gray-50: #f8f9fa;
   --color-gray-100: #f1f3f5;
@@ -21,18 +22,6 @@
   --color-gray-900: #212529;
 
   /* Add any other custom colors here */
-
-  --color-primary-50: #fff4ed;
-  --color-primary-100: #ffe5d4;
-  --color-primary-200: #ffc7a9;
-  --color-primary-300: #ffa072;
-  --color-primary-400: #fe622a; /* Original Primary Color*/
-  --color-primary-500: #fd4612;
-  --color-primary-600: #ee2c08;
-  --color-primary-700: #c51d09;
-  --color-primary-800: #9c1910;
-  --color-primary-900: #7e1810;
-  --color-primary-950: #440706;
 }
 
 /* inter-latin-wght-normal */
