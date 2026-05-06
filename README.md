@@ -5,8 +5,7 @@ Marker is a simple learning journal designed to help people track projects and r
 The project originally began as a Chrome extension and was later rebuilt as a React application after the project’s direction changed to a word document. This repository serves as a marketing website that demonstrates how the document can be used effectively for projects or learning something new.
 
 - Started: 17th October 2025
-- Status: In Progress
-- Completed: N / A
+- Completed
 
 ## File Structure
 
@@ -14,6 +13,7 @@ This project uses **Vite**, **React**, **TypeScript**, and **Tailwind CSS** for 
 
 The frontend code is organized as follows:
 
+````
 frontend/
 ├─ App.tsx
 ├─ index.tsx
@@ -22,7 +22,7 @@ frontend/
 ├─ assets/ ← images, icons, CSS
 ├─ hooks/ ← custom hooks
 ├─ utils/ ← helper functions
-
+````
 ## Install and Run Locally
 
 Clone the project
