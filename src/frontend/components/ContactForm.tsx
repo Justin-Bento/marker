@@ -118,7 +118,7 @@ export default function ContactForm({ onSubmit }: Props) {
       </div>
       <button
         type="submit"
-        className="inline-flex shrink-0 items-center justify-center gap-3 rounded-full text-sm/7 font-medium bg-primary-950 text-white hover:bg-primary-800 dark:bg-primary-300 dark:text-primary-950 dark:hover:bg-primary-200 px-4 py-1.5"
+        className="inline-flex shrink-0 items-center justify-center gap-3 rounded-full text-sm/7 font-medium bg-brand text-white hover:bg-brand/80 px-4 py-1.5"
       >
         Submit
       </button>
