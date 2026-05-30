@@ -23,6 +23,7 @@ frontend/
 ├─ hooks/ ← custom hooks
 ├─ utils/ ← helper functions
 ````
+
 ## Install and Run Locally
 
 Clone the project
