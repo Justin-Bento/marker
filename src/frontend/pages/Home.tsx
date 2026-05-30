@@ -70,9 +70,9 @@ export default function Home() {
           </p>
         </div>
         <ul className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {sections.map((section) => {
+          {sections.map((section, index) => {
             return (
-              <li className="w-full rounded-lg border p-6 border-gray-600 dark:bg-gray-900">
+              <li key={index} className="w-full rounded-lg border p-6 border-gray-600 dark:bg-gray-900">
                 <span className="block size-12 bg-brand/10 rounded-lg mb-4"></span>
                 <p className="text-xl font-medium text-black dark:text-white font-serif">
                   {section.title}
@@ -135,7 +135,7 @@ export default function Home() {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
+                  strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   className="lucide lucide-cloud w-6 h-6"
