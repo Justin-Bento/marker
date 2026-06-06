@@ -1,7 +1,13 @@
 import {
+  HiOutlineCheckCircle,
   HiOutlineDocument,
+  HiOutlineLightBulb,
+  HiOutlineLocationMarker,
+  HiOutlinePuzzle,
   HiOutlineUser,
   HiOutlineViewGrid,
+  HiOutlineDocumentText,
+  HiOutlineQuestionMarkCircle,
 } from "react-icons/hi";
 
 // Thanks project gutenberg: https://www.gutenberg.org/cache/epub/2701/pg2701.txt
@@ -53,31 +59,37 @@ export const faq = [
 
 export const sections = [
   {
+    icon: <HiOutlineDocumentText />,
     title: "Cover Page",
     description:
       "Set the foundation. Name your project, define its type, and record your start date so every session begins with context.",
   },
   {
+    icon: <HiOutlineQuestionMarkCircle />,
     title: "Why Does It Matter?",
     description:
       "Capture your reason before momentum fades. Two to five sentences on why this project is worth your time — just for you.",
   },
   {
+    icon: <HiOutlineLocationMarker />,
     title: "Where Will It Be Located?",
     description:
       "Decide where the finished work lives — analog or digital. Knowing the destination keeps your decisions pointed in the right direction.",
   },
   {
+    icon: <HiOutlineLightBulb />,
     title: "Brainstorming Dump",
     description:
       "No structure, no limits. Drop every idea, link, sketch, or constraint here before you start filtering. Capture first, organize later.",
   },
   {
+    icon: <HiOutlineCheckCircle />,
     title: "Commitment & Completion",
     description:
       "Define the finish line. Set a target date, name what you plan to ship, and call out what might get cut before scope creep decides for you.",
   },
   {
+    icon: <HiOutlinePuzzle />,
     title: "Reflection & Lessons Learned",
     description:
       "Close the loop. Record what shipped, what surprised you, and what you would do differently to ensure a smooth experience.",
